@@ -73,8 +73,11 @@ public class Candidato implements Comparable<Candidato> {
 
         Locale ptbr = Locale.forLanguageTag("pt-BR");
         NumberFormat nf = NumberFormat.getInstance(ptbr);
-        return nomeUrna + " (" +
-                partidao.getSiglaPartido() + ", " + nf.format(qntVotos) + " votos)";
+        if (partidao != null)
+            return nomeUrna + " (" +
+                    partidao.getSiglaPartido() + ", " + nf.format(qntVotos) + " votos)";
+        else
+            return nomeUrna + " (" + nf.format(qntVotos) + " votos)";
     }
 
 }
