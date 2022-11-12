@@ -8,6 +8,7 @@ public class Candidato implements Comparable<Candidato> {
     private String nomeUrna;
     private LocalDate nasc;
     private boolean eleito;
+
     private char genero; // M = Masculino, F = Feminino, I = Indefinido, N = Nao Binario
     private Integer qntVotos;
     private Partido partidao;
@@ -42,6 +43,10 @@ public class Candidato implements Comparable<Candidato> {
         return eleito;
     }
 
+    public void setEleito(boolean eleito) {
+        this.eleito = eleito;
+    }
+
     public char getGenero() {
         return genero;
     }
@@ -65,7 +70,11 @@ public class Candidato implements Comparable<Candidato> {
 
     @Override
     public int compareTo(Candidato arg0) {
-        return this.qntVotos.compareTo(arg0.qntVotos);
+        if (arg0.qntVotos.compareTo(qntVotos) != 0)
+            return arg0.qntVotos.compareTo(qntVotos);
+        else {
+            return arg0.nasc.compareTo(nasc);
+        }
     }
 
     @Override
@@ -73,10 +82,14 @@ public class Candidato implements Comparable<Candidato> {
 
         Locale ptbr = Locale.forLanguageTag("pt-BR");
         NumberFormat nf = NumberFormat.getInstance(ptbr);
-        if (partidao != null)
-            return nomeUrna + " (" +
-                    partidao.getSiglaPartido() + ", " + nf.format(qntVotos) + " votos)";
-        else
+        if (partidao != null) {
+            if (partidao.getFed() != null) {
+                return '*' + nomeUrna + " (" +
+                        partidao.getSiglaPartido() + ", " + nf.format(qntVotos) + " votos)";
+            } else
+                return nomeUrna + " (" +
+                        partidao.getSiglaPartido() + ", " + nf.format(qntVotos) + " votos)";
+        } else
             return nomeUrna + " (" + nf.format(qntVotos) + " votos)";
     }
 

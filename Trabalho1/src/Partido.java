@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Locale;
 
-public class Partido {
+public class Partido implements Comparable<Partido> {
     private ArrayList<Candidato> candidatos = new ArrayList<Candidato>();
     private int numeroUrna;
     private String siglaPartido;
@@ -32,6 +32,14 @@ public class Partido {
         return fed;
     }
 
+    public Integer getVotos() {
+        Integer saida = 0;
+        for (Candidato c : candidatos) {
+            saida += c.getQntVotos();
+        }
+        return saida + votosPartidarios;
+    }
+
     public int getVotosPartidarios() {
         return votosPartidarios;
     }
@@ -57,6 +65,11 @@ public class Partido {
     }
 
     @Override
+    public int compareTo(Partido arg0) {
+        return arg0.getVotos().compareTo(this.getVotos());
+    }
+
+    @Override
     public String toString() {
         int votosNominais = 0;
         int qntEleitos = 0;
@@ -76,7 +89,8 @@ public class Partido {
                     + nf.format(qntEleitos) + " candidatos eleitos";
         else
             return siglaPartido + " - " + numeroUrna + ", " + nf.format(votosNominais + votosPartidarios) +
-                    " votos (" + nf.format(votosNominais) + " e " + nf.format(votosPartidarios) + "), "
+                    " votos (" + nf.format(votosNominais) + " nominais e " + nf.format(votosPartidarios)
+                    + " de legenda), "
                     + nf.format(qntEleitos) + " candidato eleito";
     }
 
@@ -85,8 +99,11 @@ public class Partido {
         Candidato primeiro = candidatos.get(0);
         Candidato ultimo = candidatos.get(candidatos.size() - 1);
 
-        return siglaPartido + " - " + numeroUrna + ", " +
-                primeiro.getNomeUrna() + " (" + primeiro.getID() + ", " + primeiro.getQntVotos() + ") / " +
-                ultimo.getNomeUrna() + " (" + ultimo.getID() + ", " + ultimo.getQntVotos();
+        if (candidatos.size() > 0)
+            return siglaPartido + " - " + numeroUrna + ", " +
+                    primeiro.getNomeUrna() + " (" + primeiro.getID() + ", " + primeiro.getQntVotos() + ") / " +
+                    ultimo.getNomeUrna() + " (" + ultimo.getID() + ", " + ultimo.getQntVotos();
+        else
+            return "";
     }
 }
