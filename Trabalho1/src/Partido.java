@@ -66,7 +66,11 @@ public class Partido implements Comparable<Partido> {
 
     @Override
     public int compareTo(Partido arg0) {
-        return arg0.getVotos().compareTo(this.getVotos());
+
+        if (arg0.getVotos().compareTo(this.getVotos()) != 0)
+            return arg0.getVotos().compareTo(this.getVotos());
+        else
+            return (this.getNumeroUrna() - arg0.getNumeroUrna());
     }
 
     @Override
@@ -99,10 +103,14 @@ public class Partido implements Comparable<Partido> {
         Candidato primeiro = candidatos.get(0);
         Candidato ultimo = candidatos.get(candidatos.size() - 1);
 
+        Locale ptbr = Locale.forLanguageTag("pt-BR");
+        NumberFormat nf = NumberFormat.getInstance(ptbr);
+
         if (candidatos.size() > 0)
             return siglaPartido + " - " + numeroUrna + ", " +
-                    primeiro.getNomeUrna() + " (" + primeiro.getID() + ", " + primeiro.getQntVotos() + ") / " +
-                    ultimo.getNomeUrna() + " (" + ultimo.getID() + ", " + ultimo.getQntVotos();
+                    primeiro.getNomeUrna() + " (" + primeiro.getID() + ", " + nf.format(primeiro.getQntVotos())
+                    + " votos) / " +
+                    ultimo.getNomeUrna() + " (" + ultimo.getID() + ", " + nf.format(ultimo.getQntVotos()) + " votos)";
         else
             return "";
     }

@@ -8,7 +8,6 @@ public class Candidato implements Comparable<Candidato> {
     private String nomeUrna;
     private LocalDate nasc;
     private boolean eleito;
-
     private char genero; // M = Masculino, F = Feminino, I = Indefinido, N = Nao Binario
     private Integer qntVotos;
     private Partido partidao;
