@@ -1,5 +1,6 @@
 import java.text.NumberFormat;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Locale;
 
 public class Candidato implements Comparable<Candidato> {
@@ -90,6 +91,14 @@ public class Candidato implements Comparable<Candidato> {
                         partidao.getSiglaPartido() + ", " + nf.format(qntVotos) + " votos)";
         } else
             return nomeUrna + " (" + nf.format(qntVotos) + " votos)";
+    }
+
+    public static void imprimeListaCand(List<Candidato> candidatos) {
+        Integer i = 1;
+        for (Candidato e : candidatos) {
+            System.out.println(i.toString() + " - " + e);
+            i++;
+        }
     }
 
 }

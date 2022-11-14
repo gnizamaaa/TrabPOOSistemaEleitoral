@@ -1,6 +1,7 @@
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Locale;
 
 public class Partido implements Comparable<Partido> {
@@ -113,5 +114,13 @@ public class Partido implements Comparable<Partido> {
                     ultimo.getNomeUrna() + " (" + ultimo.getID() + ", " + nf.format(ultimo.getQntVotos()) + " votos)";
         else
             return "";
+    }
+
+    public static void imprimeListaPartido(List<Partido> listaPartido) {
+        Integer i = 1;
+        for (Partido e : listaPartido) {
+            System.out.println(i + " - " + e);
+            i++;
+        }
     }
 }

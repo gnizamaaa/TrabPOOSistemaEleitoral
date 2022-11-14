@@ -35,11 +35,6 @@ public class App {
         while (temp != null) {
             String[] partes = temp.split("\";\"");
 
-            // System.out.println(partes[13] + " " + partes[24] + " " + partes[16] + " " +
-            // partes[18] + " " +
-            // partes[27] + " " + partes[28] + " " + partes[30] + " " +
-            // partes[42] + " " + partes[45] + " " + partes[56]);
-
             // Tratamento dos partidos
             // Se o partido ja existe
             if (partidos.containsKey(Integer.parseInt(partes[27]))) {
@@ -97,12 +92,13 @@ public class App {
 
         while (temp != null) {
             String[] partes = temp.split("\";\"");
-            // System.out.println(partes[17] + " " + partes[19] + " " + partes[21]);
             if (Integer.parseInt(partes[17]) == filtroCargo) {
                 Candidato cand = votacao.get(Integer.parseInt(partes[19]));
-                if (cand != null) {// Se foi voto nomeavel
+                if (cand != null) {
+                    // Se foi voto nomeavel
                     cand.addQntVotos(Integer.parseInt(partes[21]));
-                } else { // Foi voto por partido
+                } else {
+                    // Foi voto por partido
                     Partido part = partidos.get(Integer.parseInt(partes[19]));
                     if (part != null) // Se nao for um branco/nulo/anulado
                         part.addVotosPartidarios(Integer.parseInt(partes[21]));
@@ -125,107 +121,8 @@ public class App {
         return saida;
     }
 
-    public static void main(String[] args) throws Exception {
-        // System.out.println("Hello, World!");
+    private static void estatisticasEleitos(ArrayList<Candidato> eleitos) {
 
-        int filtroCargo = 0;
-
-        if (args[0].equals("--estadual")) {
-            filtroCargo = 7;
-        }
-        if (args[0].equals("--federal")) {
-            filtroCargo = 6;
-
-        }
-
-        ArrayList<Candidato> eleitos = new ArrayList<>();
-        ArrayList<Candidato> candidatos = new ArrayList<>();
-        ArrayList<Partido> listaPartido = new ArrayList<>();
-
-        // Dados com frequente acesso tambem serao colocados em uma Hashtable para maior
-        // agilidade
-        Hashtable<Integer, Candidato> votacao = new Hashtable<>();
-        Hashtable<Integer, Partido> partidos = new Hashtable<>();
-        Hashtable<Integer, Federacao> feds = new Hashtable<>();
-
-        leituraArqCand(eleitos, candidatos, votacao, listaPartido, partidos, feds, args[1], filtroCargo);
-
-        leituraArqVot(args[2], votacao, partidos, filtroCargo);
-
-        // Saida
-
-        // Primeira saida - Eleitos
-        Integer i = 1;
-        Collections.sort(candidatos);
-        Collections.sort(eleitos);
-        System.out.println("Número de vagas: " + eleitos.size() + "\n\nDeputados estaduais eleitos:");
-        for (Candidato e : eleitos) {
-            System.out.println(i.toString() + " - " + e);
-            i++;
-        }
-
-        i = 1;
-        // Saida - Mais votados
-        System.out
-                .println("\nCandidatos mais votados (em ordem decrescente de votação e respeitando número de vagas):");
-        // for (Candidato e : candidatos) {
-        // System.out.println(i.toString() + " - " + e);
-        // i++;
-        // if (i > eleitos.size() - 1)
-        // break;
-        // }
-
-        // Saida - Mais votados
-        List<Candidato> eleicaoQntVotos = candidatos.subList(0, eleitos.size());
-        for (Candidato e : eleicaoQntVotos) {
-            System.out.println(i.toString() + " - " + e);
-            i++;
-            if (i > eleitos.size())
-                break;
-        }
-
-        i = 1;
-        // Saida - Diferencas
-        List<Candidato> eleMaj = difereLista(eleitos.size(), eleicaoQntVotos, eleitos);
-        System.out
-                .println(
-                        "\nTeriam sido eleitos se a votação fosse majoritária, e não foram eleitos:\n(com sua posição no ranking de mais votados)");
-        for (Candidato e : eleMaj) {
-            System.out.println((candidatos.indexOf(e) + 1) + " - " + e);
-        }
-
-        eleMaj = difereLista(eleitos.size(), eleitos, eleicaoQntVotos);
-        System.out
-                .println(
-                        "\nEleitos, que se beneficiaram do sistema proporcional:\n(com sua posição no ranking de mais votados)");
-        for (Candidato e : eleMaj) {
-            System.out.println((candidatos.indexOf(e) + 1) + " - " + e);
-        }
-
-        // Saida - Partidos
-        Collections.sort(listaPartido);
-        System.out.println("\nVotação dos partidos e número de candidatos eleitos:");
-        for (Partido e : listaPartido) {
-            System.out.println(i + " - " + e);
-            i++;
-        }
-
-        // Saida - Estatisticas de cada partido
-        Hashtable<Integer, Partido> impressos = new Hashtable<>();
-        System.out.println("\nPrimeiro e último colocados de cada partido:");
-        i = 1;
-        for (Candidato e : candidatos) {
-            if (impressos.contains(e.getPartidao())) {
-                if (impressos.size() == partidos.size())
-                    break;
-            } else {
-                System.out.println(i + " - " + e.getPartidao().estatisticasCands());
-                impressos.put(e.getPartidao().getNumeroUrna(), e.getPartidao());
-                i++;
-            }
-        }
-
-        // Saida - Estatisticas eleitos
         double sub30 = 0, sub40 = 0, sub50 = 0, sub60 = 0, up60 = 0;
         int fem = 0, masc = 0, nb = 0;
         for (Candidato e : eleitos) {
@@ -278,7 +175,16 @@ public class App {
         if (nb > 0)
             System.out.println("Nao binario: " + masc + " (" + format.format(masc / (double) eleitos.size()) + ")");
 
-        // Saida - votos totais
+    }
+
+    private static void estatisticasVotos(ArrayList<Candidato> candidatos, ArrayList<Partido> listaPartido) {
+
+        Locale ptbr = Locale.forLanguageTag("pt-BR");
+        NumberFormat format = NumberFormat.getPercentInstance(ptbr);
+        NumberFormat nf = NumberFormat.getInstance(ptbr);
+        format.setMaximumFractionDigits(2);
+        format.setMinimumFractionDigits(2);
+
         int votosNominais = 0, votosLegenda = 0;
 
         for (Candidato e : candidatos)
@@ -292,5 +198,93 @@ public class App {
                 + format.format(votosNominais / (double) (votosLegenda + votosNominais)) + ")");
         System.out.println("Total de votos de legenda:    " + nf.format(votosLegenda) + " ("
                 + format.format(votosLegenda / (double) (votosLegenda + votosNominais)) + ")");
+    }
+
+    public static void main(String[] args) throws Exception {
+        int filtroCargo = 0;
+
+        if (args[0].equals("--estadual")) {
+            filtroCargo = 7;
+        }
+        if (args[0].equals("--federal")) {
+            filtroCargo = 6;
+
+        }
+
+        ArrayList<Candidato> eleitos = new ArrayList<>();
+        ArrayList<Candidato> candidatos = new ArrayList<>();
+        ArrayList<Partido> listaPartido = new ArrayList<>();
+
+        // Dados com frequente acesso tambem serao colocados em uma Hashtable para maior
+        // agilidade
+        Hashtable<Integer, Candidato> votacao = new Hashtable<>();
+        Hashtable<Integer, Partido> partidos = new Hashtable<>();
+        Hashtable<Integer, Federacao> feds = new Hashtable<>();
+
+        leituraArqCand(eleitos, candidatos, votacao, listaPartido, partidos, feds, args[1], filtroCargo);
+
+        leituraArqVot(args[2], votacao, partidos, filtroCargo);
+
+        // Saida
+
+        // Primeira saida - Eleitos
+        Collections.sort(candidatos);
+        Collections.sort(eleitos);
+        if (filtroCargo == 7)
+            System.out.println("Número de vagas: " + eleitos.size() + "\n\nDeputados estaduais eleitos:");
+        else if (filtroCargo == 6)
+            System.out.println("Número de vagas: " + eleitos.size() + "\n\nDeputados federais eleitos:");
+
+        Candidato.imprimeListaCand(eleitos);
+
+        // Saida - Mais votados
+        System.out
+                .println("\nCandidatos mais votados (em ordem decrescente de votação e respeitando número de vagas):");
+        List<Candidato> eleicaoQntVotos = candidatos.subList(0, eleitos.size());
+        Candidato.imprimeListaCand(eleicaoQntVotos);
+
+        Integer i = 1;
+        // Saida - Diferencas
+        List<Candidato> eleMaj = difereLista(eleitos.size(), eleicaoQntVotos, eleitos);
+        System.out
+                .println(
+                        "\nTeriam sido eleitos se a votação fosse majoritária, e não foram eleitos:\n(com sua posição no ranking de mais votados)");
+        for (Candidato e : eleMaj) {
+            System.out.println((candidatos.indexOf(e) + 1) + " - " + e);
+        }
+
+        eleMaj = difereLista(eleitos.size(), eleitos, eleicaoQntVotos);
+        System.out
+                .println(
+                        "\nEleitos, que se beneficiaram do sistema proporcional:\n(com sua posição no ranking de mais votados)");
+        for (Candidato e : eleMaj) {
+            System.out.println((candidatos.indexOf(e) + 1) + " - " + e);
+        }
+
+        // Saida - Partidos
+        Collections.sort(listaPartido);
+        System.out.println("\nVotação dos partidos e número de candidatos eleitos:");
+        Partido.imprimeListaPartido(listaPartido);
+
+        // Saida - Estatisticas de cada partido
+        Hashtable<Integer, Partido> impressos = new Hashtable<>();
+        System.out.println("\nPrimeiro e último colocados de cada partido:");
+        i = 1;
+        for (Candidato e : candidatos) {
+            if (impressos.contains(e.getPartidao())) {
+                if (impressos.size() == partidos.size())
+                    break;
+            } else {
+                System.out.println(i + " - " + e.getPartidao().estatisticasCands());
+                impressos.put(e.getPartidao().getNumeroUrna(), e.getPartidao());
+                i++;
+            }
+        }
+
+        // Saida - Estatisticas eleitos
+        estatisticasEleitos(eleitos);
+
+        // Saida - votos totais
+        estatisticasVotos(candidatos, listaPartido);
     }
 }
