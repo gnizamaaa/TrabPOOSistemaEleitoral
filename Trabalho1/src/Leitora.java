@@ -9,6 +9,7 @@ import java.util.Map;
 
 public class Leitora {
 
+    // Conversao de inteiro (usado no arquivo) para char utilizado no programa
     private static char converteGenero(int entrada) {
         if (entrada == 2)
             return 'M';
@@ -53,6 +54,7 @@ public class Leitora {
                         }
                 }
 
+                // Se o candidato concorre para o cargo desejado e possui candidatura valida
                 if ((Integer.parseInt(partes[13]) == filtroCargo)
                         & (Integer.parseInt(partes[24]) == 2 | Integer.parseInt(partes[24]) == 16)) {
 
@@ -78,11 +80,14 @@ public class Leitora {
             }
             arqCand.close();
         } catch (NumberFormatException e) {
+            // parse deu erro (Formatacao incorreta)
             System.out.println("O arquivo de candidatos fornecido ndao esta com a devida formatacao");
+            System.exit(0);
 
         } catch (IOException e) {
             throw e;
         } catch (ArrayIndexOutOfBoundsException e) {
+            // O split nao gerou tantos campos (Formatacao incorreta)
             System.out.println("O arquivo de candidatos fornecido ndao esta com a devida formatacao");
             System.exit(0);
         }
@@ -99,7 +104,10 @@ public class Leitora {
             temp = ArqSec.readLine();
 
             while (temp != null) {
+                // Divide em campos, tirando aspas
                 String[] partes = temp.split("\";\"");
+
+                // Se e o cargo procurado, processe o voto
                 if (Integer.parseInt(partes[17]) == filtroCargo) {
                     Candidato cand = votacao.get(Integer.parseInt(partes[19]));
                     if (cand != null) {
@@ -115,12 +123,15 @@ public class Leitora {
                 temp = ArqSec.readLine();
             }
         } catch (NumberFormatException e) {
+            // parse deu erro (Formatacao incorreta)
             System.out.println("O arquivo de votacao fornecido nao esta com a devida formatacao");
+            System.exit(0);
         } catch (IOException e) {
             throw e;
         } catch (ArrayIndexOutOfBoundsException e) {
+            // O split nao gerou tantos campos (Formatacao incorreta)
             System.out.println("O arquivo de votacao fornecido nao esta com a devida formatacao");
-
+            System.exit(0);
         }
     }
 }

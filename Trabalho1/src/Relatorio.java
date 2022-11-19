@@ -7,6 +7,12 @@ import java.util.Locale;
 import java.util.Map;
 
 public class Relatorio {
+
+    /**
+     * Saida do relatorio sobre estatisticas,dados sobre eleitos (idade, genero)
+     * 
+     * @param eleitos - Lista de candidatos eleitos ordenada em ordem crescente
+     */
     public static void estatisticasEleitos(List<Candidato> eleitos) {
 
         double sub30 = 0, sub40 = 0, sub50 = 0, sub60 = 0, up60 = 0;
@@ -63,6 +69,12 @@ public class Relatorio {
 
     }
 
+    /**
+     * Saida do relatorio sobre os votos (validos, nominais e legenda)
+     * 
+     * @param candidatos   - Lista de Candidatos ordenada em ordem crescente
+     * @param listaPartido - Lista de Partidos
+     */
     public static void estatisticasVotos(List<Candidato> candidatos, List<Partido> listaPartido) {
 
         Locale ptbr = Locale.forLanguageTag("pt-BR");
@@ -86,6 +98,13 @@ public class Relatorio {
                 + format.format(votosLegenda / (double) (votosLegenda + votosNominais)) + ")");
     }
 
+    /**
+     * Saida do relatorio sobre os partidos(Estatisticas sobre os candidatos do
+     * partido)
+     * 
+     * @param candidatos - Lista de candidatos ordenada em ordem crescente
+     * @param partidos   - Mapa(tabela) de Numero de partido - Partido
+     */
     public static void estatisticasParts(List<Candidato> candidatos, Map<Integer, Partido> partidos) {
 
         HashMap<Integer, Partido> impressos = new HashMap<>();
@@ -103,6 +122,12 @@ public class Relatorio {
         }
     }
 
+    /**
+     * Saida do relatorio sobre os Eleitos (Cargo e dados do candidato)
+     * 
+     * @param filtroCargo - Cargo sendo concorrido
+     * @param eleitos     - Lista de eleitos ordenada em ordem crescente
+     */
     public static void RelatorioEleitos(int filtroCargo, List<Candidato> eleitos) {
         if (filtroCargo == 7)
             System.out.println("Número de vagas: " + eleitos.size() + "\n\nDeputados estaduais eleitos:");
@@ -111,12 +136,27 @@ public class Relatorio {
         Candidato.imprimeListaCand(eleitos);
     }
 
+    /**
+     * Saida do relatorio sobre os mais votados (Cargo e dados do candidato)
+     * 
+     * @param eleicaoQntVotos - Lista dos candidatos mais votados em ordem crescente
+     *                        (de
+     *                        tamanho igual a quantidade de vagas)
+     */
     public static void RelatorioMaisVotados(List<Candidato> eleicaoQntVotos) {
         System.out
                 .println("\nCandidatos mais votados (em ordem decrescente de votação e respeitando número de vagas):");
         Candidato.imprimeListaCand(eleicaoQntVotos);
     }
 
+    /**
+     * Saida do relatorio sobre a diferenca entre os mais votados e os eleitos (Os
+     * que receberam maior quantidade de votos mas nao foram eleitos)
+     * 
+     * @param eleMaj     - Lista de candidatos que seriam eleitos caso fosse uma
+     *                   eleicao majoritaria
+     * @param candidatos - Lista de todos os candidatos ordenada em ordem crescente
+     */
     public static void RelatorioDif_MajEle(List<Candidato> eleMaj, List<Candidato> candidatos) {
         System.out
                 .println(
@@ -126,6 +166,14 @@ public class Relatorio {
         }
     }
 
+    /**
+     * Saida do relatorio sobre a diferenca entre os eleitos e os mais votados(Os
+     * que receberam menor quantidade de votos mas foram eleitos)
+     * 
+     * @param eleMaj     - Lista de candidatos que nao seriam eleitos caso fosse uma
+     *                   eleicao majoritaria
+     * @param candidatos - Lista de todos os candidatos ordenada em ordem crescente
+     */
     public static void RelatorioDif_EleMaj(List<Candidato> eleMaj, List<Candidato> candidatos) {
         System.out
                 .println(
@@ -135,6 +183,12 @@ public class Relatorio {
         }
     }
 
+    /**
+     * Saida do relatorio sobre os partidos (quantidade de votos e candidatos
+     * eleitos)
+     * 
+     * @param listaPartido - Lista de partidos ordenada em ordem crescente
+     */
     public static void RelatorioListaPart(List<Partido> listaPartido) {
         System.out.println("\nVotação dos partidos e número de candidatos eleitos:");
         Partido.imprimeListaPartido(listaPartido);

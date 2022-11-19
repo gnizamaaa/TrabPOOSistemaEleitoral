@@ -5,11 +5,11 @@ import java.util.List;
 import java.util.Locale;
 
 public class Partido implements Comparable<Partido> {
-    private ArrayList<Candidato> candidatos = new ArrayList<Candidato>();
-    private int numeroUrna;
-    private String siglaPartido;
-    private Federacao fed;
-    private int votosPartidarios;
+    private ArrayList<Candidato> candidatos = new ArrayList<Candidato>(); //Lista de candidatos associados ao partido
+    private int numeroUrna; // Numero de urna do partido
+    private String siglaPartido; // Sigla/Nome de Urna do Partido
+    private Federacao fed; // Federacao que participa
+    private int votosPartidarios; // Contador de votos partidarios
 
     public Partido(int numeroUrna, String siglaPartido) {
         this.numeroUrna = numeroUrna;
@@ -45,6 +45,7 @@ public class Partido implements Comparable<Partido> {
         return votosPartidarios;
     }
 
+    // Adiciona [votosPartidarios] votos ao contador de votos partidarios
     public void addVotosPartidarios(int votosPartidarios) {
         this.votosPartidarios += votosPartidarios;
     }
@@ -54,6 +55,7 @@ public class Partido implements Comparable<Partido> {
         fed.inserePartido(this);
     }
 
+    //Esta associado a uma federacao
     public Boolean isInFed() {
         return (fed != null);
     }
@@ -99,6 +101,7 @@ public class Partido implements Comparable<Partido> {
                     + nf.format(qntEleitos) + " candidato eleito";
     }
 
+    //Imprime estatisticas do Partido sobre seus candidatos (mais eleito, menos eleito e votos deles)
     public String estatisticasCands() {
         Collections.sort(candidatos);
         Candidato primeiro = candidatos.get(0);
@@ -116,6 +119,7 @@ public class Partido implements Comparable<Partido> {
             return "";
     }
 
+    //Faz a impressao de uma lista de partidos com a posicao a esquerda
     public static void imprimeListaPartido(List<Partido> listaPartido) {
         Integer i = 1;
         for (Partido e : listaPartido) {

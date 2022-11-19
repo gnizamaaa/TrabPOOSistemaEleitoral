@@ -4,14 +4,14 @@ import java.util.List;
 import java.util.Locale;
 
 public class Candidato implements Comparable<Candidato> {
-    private int ID;
-    private int cargo;
-    private String nomeUrna;
-    private LocalDate nasc;
+    private int ID; // Numero de urna
+    private int cargo; // Deputado federal ou estadual
+    private String nomeUrna; // Nome de urna do candidato
+    private LocalDate nasc; // Nascimento do candidato
     private boolean eleito;
     private char genero; // M = Masculino, F = Feminino, I = Indefinido, N = Nao Binario
-    private Integer qntVotos;
-    private Partido partidao;
+    private Integer qntVotos; // Contador de votos
+    private Partido partidao; // Partido que o canditado faz parte
 
     public Candidato(int iD, int cargo, String nomeUrna, LocalDate nasc, boolean eleito, char genero, int qntVotos) {
         ID = iD;
@@ -51,6 +51,11 @@ public class Candidato implements Comparable<Candidato> {
         return genero;
     }
 
+    /**
+     * Adiciona [qntVotos] votos ao contador de votos
+     * 
+     * @param qntVotos - quantidade de votos a serem adicionados
+     */
     public void addQntVotos(Integer qntVotos) {
         this.qntVotos += qntVotos;
     }
@@ -63,6 +68,7 @@ public class Candidato implements Comparable<Candidato> {
         return partidao;
     }
 
+    // Faz o set mantendo o link com o partido (que possui uma lista de candidatos)
     public void setPartidao(Partido partidao) {
         this.partidao = partidao;
         partidao.InsereCand(this);
@@ -93,6 +99,11 @@ public class Candidato implements Comparable<Candidato> {
             return nomeUrna + " (" + nf.format(qntVotos) + " votos)";
     }
 
+    /**
+     * Faz a impressao de uma lista de candidatos com a posicao na lista a esquerda
+     * 
+     * @param candidatos - Lista a ser impressa
+     */
     public static void imprimeListaCand(List<Candidato> candidatos) {
         Integer i = 1;
         for (Candidato e : candidatos) {

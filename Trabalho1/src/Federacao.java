@@ -16,8 +16,10 @@ public class Federacao {
         ID = iD;
     }
 
+    // Insere o partido na lista de partidos da federacao mantendo o link (Partido
+    // possui uma referencia para a federacao que participa)
     public void inserePartido(Partido novo) {
-        if(!partidos.contains(novo)){
+        if (!partidos.contains(novo)) {
             partidos.add(novo);
             novo.setFed(this);
         }
