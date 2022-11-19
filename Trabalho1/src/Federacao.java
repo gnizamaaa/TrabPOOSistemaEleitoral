@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Federacao {
     private int ID;
-    private ArrayList<Partido> partidos = new ArrayList<>();
+    private final ArrayList<Partido> partidos = new ArrayList<>();
 
     public ArrayList<Partido> getPartidos() {
         return partidos;

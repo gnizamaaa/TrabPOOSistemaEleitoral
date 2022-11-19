@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Locale;
 
 public class Partido implements Comparable<Partido> {
-    private ArrayList<Candidato> candidatos = new ArrayList<Candidato>(); //Lista de candidatos associados ao partido
-    private int numeroUrna; // Numero de urna do partido
-    private String siglaPartido; // Sigla/Nome de Urna do Partido
+    private final ArrayList<Candidato> candidatos = new ArrayList<>(); //Lista de candidatos associados ao partido
+    private final int numeroUrna; // Numero de urna do partido
+    private final String siglaPartido; // Sigla/Nome de Urna do Partido
     private Federacao fed; // Federacao que participa
     private int votosPartidarios; // Contador de votos partidarios
 

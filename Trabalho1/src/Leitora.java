@@ -35,8 +35,7 @@ public class Leitora {
 
                 // Tratamento dos partidos
                 // Se o partido ja existe
-                if (partidos.containsKey(Integer.parseInt(partes[27]))) {
-                } else {
+                if (!partidos.containsKey(Integer.parseInt(partes[27])))  {
                     // caso nao exista, cria partido, insere na tabela, linka
                     Partido novo = new Partido(Integer.parseInt(partes[27]), partes[28]);
                     partidos.put(novo.getNumeroUrna(), novo);

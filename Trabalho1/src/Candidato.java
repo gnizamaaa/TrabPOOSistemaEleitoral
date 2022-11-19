@@ -4,12 +4,12 @@ import java.util.List;
 import java.util.Locale;
 
 public class Candidato implements Comparable<Candidato> {
-    private int ID; // Numero de urna
-    private int cargo; // Deputado federal ou estadual
-    private String nomeUrna; // Nome de urna do candidato
-    private LocalDate nasc; // Nascimento do candidato
+    private final int ID; // Numero de urna
+    private final int cargo; // Deputado federal ou estadual
+    private final String nomeUrna; // Nome de urna do candidato
+    private final LocalDate nasc; // Nascimento do candidato
     private boolean eleito;
-    private char genero; // M = Masculino, F = Feminino, I = Indefinido, N = Nao Binario
+    private final char genero; // M = Masculino, F = Feminino, I = Indefinido, N = Nao Binario
     private Integer qntVotos; // Contador de votos
     private Partido partidao; // Partido que o canditado faz parte
 
@@ -107,7 +107,7 @@ public class Candidato implements Comparable<Candidato> {
     public static void imprimeListaCand(List<Candidato> candidatos) {
         Integer i = 1;
         for (Candidato e : candidatos) {
-            System.out.println(i.toString() + " - " + e);
+            System.out.println(i + " - " + e);
             i++;
         }
     }
