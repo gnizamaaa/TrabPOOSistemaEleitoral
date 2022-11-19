@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Federacao</OriginalElement>
+  <nodes>
+    <node x="-772.0907908895266" y="140.0">Candidato</node>
+    <node x="201.63060437589672" y="340.0">Federacao</node>
+    <node x="-300.0" y="177.5">Partido</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Partido" target="Candidato" relationship="TO_MANY">
+      <point x="-158.0" y="-127.75" />
+      <point x="-290.0" y="305.25" />
+      <point x="-290.0" y="286.5" />
+      <point x="161.0" y="-146.5" />
+    </edge>
+    <edge source="Candidato" target="Partido" relationship="TO_ONE">
+      <point x="161.0" y="146.5" />
+      <point x="-300.0" y="579.5" />
+      <point x="-158.0" y="127.75" />
+    </edge>
+    <edge source="Federacao" target="Partido" relationship="TO_MANY">
+      <point x="-132.5" y="-46.5" />
+      <point x="86.0" y="386.5" />
+      <point x="86.0" y="305.25" />
+      <point x="158.0" y="-127.75" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8553787152444872" showDependencies="true" x="-204.0" y="478.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,18 @@
+digraph "Federacao" {
+
+splines  = ortho;
+fontname = "Inconsolata";
+
+node [colorscheme = ylgnbu4];
+edge [colorscheme = dark28, dir = both];
+
+Candidato [shape = record, label = "{ Candidato | - qntVotos : Integer\l - partidao : Partido\l - eleito : boolean\l - genero : char\l - cargo : int\l - ID : int\l - nasc : LocalDate\l - nomeUrna : String\l|+ getGenero() : char\l + getCargo() : int\l + setEleito(boolean) : void\l + getID() : int\l + setPartidao(Partido) : void\l + isEleito() : boolean\l + addQntVotos(Integer) : void\l + toString() : String\l + getPartidao() : Partido\l + imprimeListaCand(List\<Candidato\>) : void\l + getNomeUrna() : String\l + getQntVotos() : int\l + getNasc() : LocalDate\l + compareTo(Candidato) : int\l }"];
+Federacao [shape = record, label = "{ Federacao | - ID : int\l - partidos : ArrayList\<Partido\>\l|+ getPartidos() : ArrayList\<Partido\>\l + setID(int) : void\l + inserePartido(Partido) : void\l + getID() : int\l }"];
+Partido   [shape = record, label = "{ Partido | - votosPartidarios : int\l - numeroUrna : int\l - siglaPartido : String\l - candidatos : ArrayList\<Candidato\>\l - fed : Federacao\l|+ imprimeListaPartido(List\<Partido\>) : void\l + InsereCand(Candidato) : void\l + setFed(Federacao) : void\l + getVotos() : Integer\l + addVotosPartidarios(int) : void\l + isInFed() : Boolean\l + toString() : String\l + getVotosPartidarios() : int\l + getSiglaPartido() : String\l + getFed() : Federacao\l + compareTo(Partido) : int\l + getCandidatos() : ArrayList\<Candidato\>\l + getNumeroUrna() : int\l + estatisticasCands() : String\l }"];
+
+Candidato -> Partido   [color = "#595959", style = solid , arrowtail = diamond , arrowhead = vee     , taillabel = "1", label = "", headlabel = "partidao\n1"];
+Federacao -> Partido   [color = "#595959", style = solid , arrowtail = diamond , arrowhead = vee     , taillabel = "1", label = "", headlabel = "partidos\n*"];
+Partido   -> Candidato [color = "#595959", style = solid , arrowtail = diamond , arrowhead = vee     , taillabel = "1", label = "", headlabel = "candidatos\n*"];
+Partido   -> Federacao [color = "#595959", style = solid , arrowtail = diamond , arrowhead = vee     , taillabel = "1", label = "", headlabel = "fed\n1"];
+
+}
