@@ -1,9 +1,14 @@
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
+
+//TODO: PROBLEMA COM A LEITURA DE MINAS GERAIS, VOTOS DE PARTIDO!
+//Ainda n achei oq ta de errado
 
 public class App {
     private static List<Candidato> difereLista(int tamMax, List<Candidato> e1, List<Candidato> e2) {
@@ -19,6 +24,11 @@ public class App {
     }
 
     public static void main(String[] args) {
+
+        if (args.length < 3) {
+            System.out.println("Faltaram parametros!");
+            System.exit(0);
+        }
 
         int filtroCargo = 0;
         if (args[0].equals("--estadual")) {
@@ -81,10 +91,13 @@ public class App {
         // Saida - Estatisticas de cada partido
         Relatorio.estatisticasParts(candidatos, partidos);
 
+        LocalDate datEle = LocalDate.parse(args[3], DateTimeFormatter.ofPattern("d/MM/yyyy"));
         // Saida - Estatisticas eleitos
-        Relatorio.estatisticasEleitos(eleitos);
+        Relatorio.estatisticasEleitos(eleitos, datEle);
 
         // Saida - votos totais
         Relatorio.estatisticasVotos(candidatos, listaPartido);
+
+        System.out.println();
     }
 }

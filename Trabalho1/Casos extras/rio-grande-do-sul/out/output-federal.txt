@@ -1,0 +1,160 @@
+Número de vagas: 31
+
+Deputados federais eleitos:
+1 - TENENTE CORONEL ZUCCO (REPUBLICANOS, 259.023 votos)
+2 - MARCEL VAN HATTEM (NOVO, 256.913 votos)
+3 - *PAULO PIMENTA (PT, 223.109 votos)
+4 - *FERNANDA MELCHIONNA (PSOL, 199.894 votos)
+5 - GIOVANI CHERINI (PL, 162.036 votos)
+6 - *MARIA DO ROSÁRIO (PT, 151.050 votos)
+7 - MAURICIO MARCON (PODE, 140.634 votos)
+8 - *BOHN GASS (PT, 131.881 votos)
+9 - *MARCON (PT, 129.352 votos)
+10 - ALCEU MOREIRA (MDB, 125.647 votos)
+11 - *LUCAS REDECKER (PSDB, 119.069 votos)
+12 - *ANY ORTIZ (CIDADANIA, 119.039 votos)
+13 - PEDRO WESTPHALEN (PP, 114.258 votos)
+14 - COVATTI FILHO (PP, 112.910 votos)
+15 - AFONSO HAMM (PP, 109.123 votos)
+16 - OSMAR TERRA (MDB, 103.245 votos)
+17 - CARLOS GOMES (REPUBLICANOS, 102.363 votos)
+18 - POMPEO DE MATTOS (PDT, 100.113 votos)
+19 - MARCIO BIOLCHI (MDB, 99.627 votos)
+20 - DANRLEI DE DEUS GOLEIRO (PSD, 97.824 votos)
+21 - *ALEXANDRE LINDENMEYER (PT, 93.768 votos)
+22 - *DAIANA SANTOS (PC do B, 88.107 votos)
+23 - SANDERSON (PL, 86.690 votos)
+24 - MARCELO MORAES (PL, 84.247 votos)
+25 - HEITOR SCHUCH (PSB, 77.616 votos)
+26 - *DANIEL TRZECIAK DANIEL DA TV  (PSDB, 77.232 votos)
+27 - BIBO NUNES (PL, 76.521 votos)
+28 - AFONSO MOTTA (PDT, 70.307 votos)
+29 - BUSATO (UNIÃO, 57.610 votos)
+30 - *DENISE PESSÔA (PT, 44.241 votos)
+31 - FRANCIANE BAYER (REPUBLICANOS, 40.555 votos)
+
+Candidatos mais votados (em ordem decrescente de votação e respeitando número de vagas):
+1 - TENENTE CORONEL ZUCCO (REPUBLICANOS, 259.023 votos)
+2 - MARCEL VAN HATTEM (NOVO, 256.913 votos)
+3 - *PAULO PIMENTA (PT, 223.109 votos)
+4 - *FERNANDA MELCHIONNA (PSOL, 199.894 votos)
+5 - GIOVANI CHERINI (PL, 162.036 votos)
+6 - *MARIA DO ROSÁRIO (PT, 151.050 votos)
+7 - MAURICIO MARCON (PODE, 140.634 votos)
+8 - *BOHN GASS (PT, 131.881 votos)
+9 - *MARCON (PT, 129.352 votos)
+10 - ALCEU MOREIRA (MDB, 125.647 votos)
+11 - *LUCAS REDECKER (PSDB, 119.069 votos)
+12 - *ANY ORTIZ (CIDADANIA, 119.039 votos)
+13 - PEDRO WESTPHALEN (PP, 114.258 votos)
+14 - COVATTI FILHO (PP, 112.910 votos)
+15 - AFONSO HAMM (PP, 109.123 votos)
+16 - OSMAR TERRA (MDB, 103.245 votos)
+17 - CARLOS GOMES (REPUBLICANOS, 102.363 votos)
+18 - POMPEO DE MATTOS (PDT, 100.113 votos)
+19 - MARCIO BIOLCHI (MDB, 99.627 votos)
+20 - DANRLEI DE DEUS GOLEIRO (PSD, 97.824 votos)
+21 - *ALEXANDRE LINDENMEYER (PT, 93.768 votos)
+22 - GIOVANI FELTES (MDB, 91.887 votos)
+23 - *DAIANA SANTOS (PC do B, 88.107 votos)
+24 - SÉRGIO TURRA (PP, 87.355 votos)
+25 - SANDERSON (PL, 86.690 votos)
+26 - MARCELO MORAES (PL, 84.247 votos)
+27 - HEITOR SCHUCH (PSB, 77.616 votos)
+28 - LUCIANO AZEVEDO (PSD, 77.249 votos)
+29 - *DANIEL TRZECIAK DANIEL DA TV  (PSDB, 77.232 votos)
+30 - BIBO NUNES (PL, 76.521 votos)
+31 - MAURICIO DZIEDRICKI (PODE, 74.310 votos)
+
+Teriam sido eleitos se a votação fosse majoritária, e não foram eleitos:
+(com sua posição no ranking de mais votados)
+22 - GIOVANI FELTES (MDB, 91.887 votos)
+24 - SÉRGIO TURRA (PP, 87.355 votos)
+28 - LUCIANO AZEVEDO (PSD, 77.249 votos)
+31 - MAURICIO DZIEDRICKI (PODE, 74.310 votos)
+
+Eleitos, que se beneficiaram do sistema proporcional:
+(com sua posição no ranking de mais votados)
+32 - AFONSO MOTTA (PDT, 70.307 votos)
+36 - BUSATO (UNIÃO, 57.610 votos)
+37 - *DENISE PESSÔA (PT, 44.241 votos)
+38 - FRANCIANE BAYER (REPUBLICANOS, 40.555 votos)
+
+Votação dos partidos e número de candidatos eleitos:
+1 - PT - 13, 1.040.725 votos (945.565 nominais e 95.160 de legenda), 6 candidatos eleitos
+2 - PL - 22, 680.192 votos (556.912 nominais e 123.280 de legenda), 4 candidatos eleitos
+3 - MDB - 15, 586.325 votos (575.864 nominais e 10.461 de legenda), 3 candidatos eleitos
+4 - REPUBLICANOS - 10, 549.530 votos (542.183 nominais e 7.347 de legenda), 3 candidatos eleitos
+5 - PP - 11, 522.295 votos (508.102 nominais e 14.193 de legenda), 3 candidatos eleitos
+6 - PSDB - 45, 352.544 votos (340.387 nominais e 12.157 de legenda), 2 candidatos eleitos
+7 - PDT - 12, 321.317 votos (301.905 nominais e 19.412 de legenda), 2 candidatos eleitos
+8 - PODE - 19, 318.850 votos (316.517 nominais e 2.333 de legenda), 1 candidato eleito
+9 - NOVO - 30, 301.966 votos (295.450 nominais e 6.516 de legenda), 1 candidato eleito
+10 - PSD - 55, 295.357 votos (288.762 nominais e 6.595 de legenda), 1 candidato eleito
+11 - PSOL - 50, 295.262 votos (290.989 nominais e 4.273 de legenda), 1 candidato eleito
+12 - UNIÃO - 44, 215.367 votos (211.942 nominais e 3.425 de legenda), 1 candidato eleito
+13 - PSB - 40, 193.200 votos (190.350 nominais e 2.850 de legenda), 1 candidato eleito
+14 - CIDADANIA - 23, 128.451 votos (124.930 nominais e 3.521 de legenda), 1 candidato eleito
+15 - PC do B - 65, 109.274 votos (107.764 nominais e 1.510 de legenda), 1 candidato eleito
+16 - PTB - 14, 89.766 votos (87.418 nominais e 2.348 de legenda), 0 candidato eleito
+17 - AVANTE - 70, 39.776 votos (39.341 nominais e 435 de legenda), 0 candidato eleito
+18 - PSC - 20, 29.346 votos (28.190 nominais e 1.156 de legenda), 0 candidato eleito
+19 - PATRIOTA - 51, 28.516 votos (27.807 nominais e 709 de legenda), 0 candidato eleito
+20 - PV - 43, 18.129 votos (17.245 nominais e 884 de legenda), 0 candidato eleito
+21 - SOLIDARIEDADE - 77, 12.595 votos (11.809 nominais e 786 de legenda), 0 candidato eleito
+22 - REDE - 18, 7.918 votos (7.159 nominais e 759 de legenda), 0 candidato eleito
+23 - PCB - 21, 3.661 votos (2.570 nominais e 1.091 de legenda), 0 candidato eleito
+24 - PRTB - 28, 2.656 votos (2.550 nominais e 106 de legenda), 0 candidato eleito
+25 - UP - 80, 2.086 votos (1.910 nominais e 176 de legenda), 0 candidato eleito
+26 - PSTU - 16, 1.842 votos (1.070 nominais e 772 de legenda), 0 candidato eleito
+27 - PROS - 90, 1.264 votos (778 nominais e 486 de legenda), 0 candidato eleito
+28 - DC - 27, 1.187 votos (1.039 nominais e 148 de legenda), 0 candidato eleito
+29 - AGIR - 36, 425 votos (106 nominais e 319 de legenda), 0 candidato eleito
+30 - PCO - 29, 167 votos (0 nominal e 167 de legenda), 0 candidato eleito
+
+Primeiro e último colocados de cada partido:
+1 - REPUBLICANOS - 10, TENENTE CORONEL ZUCCO (1022, 259.023 votos) / SANDRA POLETTO (1056, 344 votos)
+2 - NOVO - 30, MARCEL VAN HATTEM (3030, 256.913 votos) / HENRIQUE LIMA (3038, 771 votos)
+3 - PT - 13, PAULO PIMENTA (1307, 223.109 votos) / CRISTIANE DA SILVA CONCEIÇÃO (1347, 648 votos)
+4 - PSOL - 50, FERNANDA MELCHIONNA (5050, 199.894 votos) / PROF CAROL (5056, 275 votos)
+5 - PL - 22, GIOVANI CHERINI (2222, 162.036 votos) / RITA BERNARDES (2239, 304 votos)
+6 - PODE - 19, MAURICIO MARCON (1922, 140.634 votos) / KÁTIA BRITTO (1906, 14 votos)
+7 - MDB - 15, ALCEU MOREIRA (1500, 125.647 votos) / CARMEN FERREIRA (1525, 223 votos)
+8 - PSDB - 45, LUCAS REDECKER (4511, 119.069 votos) / MISSIONÁRIA GICELA FREITAS (4578, 151 votos)
+9 - CIDADANIA - 23, ANY ORTIZ (2323, 119.039 votos) / FABI BELING (2399, 87 votos)
+10 - PP - 11, PEDRO WESTPHALEN (1144, 114.258 votos) / PARANÁ (1159, 63 votos)
+11 - PDT - 12, POMPEO DE MATTOS (1212, 100.113 votos) / PERSON MENDES (1268, 139 votos)
+12 - PSD - 55, DANRLEI DE DEUS GOLEIRO (5501, 97.824 votos) / PAULO SILVA (5575, 103 votos)
+13 - PC do B - 65, DAIANA SANTOS (6565, 88.107 votos) / JOSUÉ RODRIGUES (6507, 643 votos)
+14 - PSB - 40, HEITOR SCHUCH (4012, 77.616 votos) / MARIA IGNES GOULART (4086, 354 votos)
+15 - UNIÃO - 44, BUSATO (4444, 57.610 votos) / GOULART (4484, 19 votos)
+16 - PTB - 14, RICARDO WAGNER (1415, 23.378 votos) / RENAN BERLEZE RECCHIA (1441, 177 votos)
+17 - PV - 43, CRIS MORAES (4343, 16.858 votos) / VANIA GOLDENBERG (4333, 387 votos)
+18 - AVANTE - 70, ANDERSON DORNELES (7070, 14.919 votos) / VETERINÁRIO ANDRÉ EUGENIO (7015, 49 votos)
+19 - PATRIOTA - 51, SARGENTO VANDER DA LUZ (5152, 7.177 votos) / PASTOR OTACILIO (5170, 61 votos)
+20 - PSC - 20, JADER MARETOLI (2077, 6.825 votos) / ARTHUR CUNHA (2017, 48 votos)
+21 - REDE - 18, JULIO MOURA (1818, 6.719 votos) / VIVI PEREIRA (1813, 440 votos)
+22 - SOLIDARIEDADE - 77, DR ALAN MELLO (7712, 3.039 votos) / WILLIAM MIRANDA (7796, 4 votos)
+23 - PCB - 21, JUH GUERRA (2121, 2.463 votos) / HUNO (2101, 107 votos)
+24 - UP - 80, PRISCILA VOIGT (8080, 1.081 votos) / CARLOS VIEIRA (8000, 829 votos)
+25 - PRTB - 28, CARMEN FLORES (2800, 979 votos) / MARIA DO CARMO (2862, 104 votos)
+26 - PROS - 90, FILIPE MACHADO (9007, 702 votos) / ALE FERNANDES (9001, 76 votos)
+27 - PSTU - 16, NIKAYA VIDOR (1616, 538 votos) / PROFESSOR GILLI (1600, 212 votos)
+28 - DC - 27, WILLIAM MONTEIRO (2777, 367 votos) / THARLY ALEIXO (2772, 36 votos)
+29 - AGIR - 36, KAROL MEGGIATTO (3655, 106 votos) / KAROL MEGGIATTO (3655, 106 votos)
+
+Eleitos, por faixa etária (na data da eleição):
+      Idade < 30: 0 (0,00%)
+30 <= Idade < 40: 8 (25,81%)
+40 <= Idade < 50: 6 (19,35%)
+50 <= Idade < 60: 6 (19,35%)
+60 <= Idade     : 11 (35,48%)
+
+Eleitos, por gênero:
+Feminino:  6 (19,35%)
+Masculino: 25 (80,65%)
+
+Total de votos válidos:    6.149.989
+Total de votos nominais:   5.826.614 (94,74%)
+Total de votos de legenda: 323.375 (5,26%)
+

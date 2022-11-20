@@ -1,0 +1,149 @@
+Número de vagas: 25
+
+Deputados federais eleitos:
+1 - ANDRÉ FERREIRA (PL, 273.267 votos)
+2 - CLARISSA TÉRCIO (PP, 240.511 votos)
+3 - PEDRO CAMPOS (PSB, 172.526 votos)
+4 - SILVIO COSTA FILHO (REPUBLICANOS, 162.056 votos)
+5 - FERNANDO FILHO (UNIÃO, 155.305 votos)
+6 - WALDEMAR OLIVEIRA (AVANTE, 141.386 votos)
+7 - *TÚLIO GADELHA (REDE, 134.391 votos)
+8 - *CARLOS VERAS (PT, 127.482 votos)
+9 - EDUARDO DA FONTE (PP, 124.850 votos)
+10 - *CLODOALDO MAGALHÃES (PV, 110.620 votos)
+11 - MARIA ARRAES (SOLIDARIEDADE, 104.571 votos)
+12 - IZA ARRUDA (MDB, 103.950 votos)
+13 - AUGUSTO COUTINHO (REPUBLICANOS, 101.142 votos)
+14 - PASTOR EURICO (PL, 100.811 votos)
+15 - FERNANDO MONTEIRO (PP, 99.751 votos)
+16 - ERIBERTO MEDEIROS (PSB, 99.226 votos)
+17 - LULA DA FONTE (PP, 94.122 votos)
+18 - LUCAS RAMOS (PSB, 85.571 votos)
+19 - GUILHERME UCHOA JUNIOR (PSB, 84.592 votos)
+20 - CORONEL MEIRA (PL, 78.941 votos)
+21 - FELIPE CARRERAS (PSB, 76.528 votos)
+22 - MENDONÇA FILHO (UNIÃO, 76.022 votos)
+23 - LUCIANO BIVAR (UNIÃO, 74.425 votos)
+24 - FERNANDO RODOLFO (PL, 60.088 votos)
+25 - *RENILDO CALHEIROS (PC do B, 59.686 votos)
+
+Candidatos mais votados (em ordem decrescente de votação e respeitando número de vagas):
+1 - ANDRÉ FERREIRA (PL, 273.267 votos)
+2 - CLARISSA TÉRCIO (PP, 240.511 votos)
+3 - PEDRO CAMPOS (PSB, 172.526 votos)
+4 - SILVIO COSTA FILHO (REPUBLICANOS, 162.056 votos)
+5 - FERNANDO FILHO (UNIÃO, 155.305 votos)
+6 - WALDEMAR OLIVEIRA (AVANTE, 141.386 votos)
+7 - *TÚLIO GADELHA (REDE, 134.391 votos)
+8 - *CARLOS VERAS (PT, 127.482 votos)
+9 - EDUARDO DA FONTE (PP, 124.850 votos)
+10 - *CLODOALDO MAGALHÃES (PV, 110.620 votos)
+11 - *DANIEL COELHO (CIDADANIA, 110.511 votos)
+12 - MARIA ARRAES (SOLIDARIEDADE, 104.571 votos)
+13 - IZA ARRUDA (MDB, 103.950 votos)
+14 - AUGUSTO COUTINHO (REPUBLICANOS, 101.142 votos)
+15 - PASTOR EURICO (PL, 100.811 votos)
+16 - FERNANDO MONTEIRO (PP, 99.751 votos)
+17 - ERIBERTO MEDEIROS (PSB, 99.226 votos)
+18 - LULA DA FONTE (PP, 94.122 votos)
+19 - LUCAS RAMOS (PSB, 85.571 votos)
+20 - GUILHERME UCHOA JUNIOR (PSB, 84.592 votos)
+21 - *ROBEYONCÉ (PSOL, 80.732 votos)
+22 - CORONEL MEIRA (PL, 78.941 votos)
+23 - RICARDO TEOBALDO (PODE, 78.880 votos)
+24 - FELIPE CARRERAS (PSB, 76.528 votos)
+25 - MENDONÇA FILHO (UNIÃO, 76.022 votos)
+
+Teriam sido eleitos se a votação fosse majoritária, e não foram eleitos:
+(com sua posição no ranking de mais votados)
+11 - *DANIEL COELHO (CIDADANIA, 110.511 votos)
+21 - *ROBEYONCÉ (PSOL, 80.732 votos)
+23 - RICARDO TEOBALDO (PODE, 78.880 votos)
+
+Eleitos, que se beneficiaram do sistema proporcional:
+(com sua posição no ranking de mais votados)
+26 - LUCIANO BIVAR (UNIÃO, 74.425 votos)
+31 - FERNANDO RODOLFO (PL, 60.088 votos)
+32 - *RENILDO CALHEIROS (PC do B, 59.686 votos)
+
+Votação dos partidos e número de candidatos eleitos:
+1 - PSB - 40, 727.527 votos (698.808 nominais e 28.719 de legenda), 5 candidatos eleitos
+2 - PP - 11, 681.164 votos (668.988 nominais e 12.176 de legenda), 4 candidatos eleitos
+3 - PL - 22, 636.231 votos (616.536 nominais e 19.695 de legenda), 4 candidatos eleitos
+4 - UNIÃO - 44, 461.431 votos (450.624 nominais e 10.807 de legenda), 3 candidatos eleitos
+5 - REPUBLICANOS - 10, 416.059 votos (409.779 nominais e 6.280 de legenda), 2 candidatos eleitos
+6 - PT - 13, 355.602 votos (302.519 nominais e 53.083 de legenda), 1 candidato eleito
+7 - MDB - 15, 259.476 votos (255.972 nominais e 3.504 de legenda), 1 candidato eleito
+8 - AVANTE - 70, 225.100 votos (222.903 nominais e 2.197 de legenda), 1 candidato eleito
+9 - SOLIDARIEDADE - 77, 196.762 votos (188.043 nominais e 8.719 de legenda), 1 candidato eleito
+10 - PODE - 19, 156.384 votos (154.551 nominais e 1.833 de legenda), 0 candidato eleito
+11 - REDE - 18, 151.812 votos (150.365 nominais e 1.447 de legenda), 1 candidato eleito
+12 - PDT - 12, 140.384 votos (126.894 nominais e 13.490 de legenda), 0 candidato eleito
+13 - PV - 43, 116.478 votos (113.348 nominais e 3.130 de legenda), 1 candidato eleito
+14 - PSOL - 50, 115.062 votos (112.653 nominais e 2.409 de legenda), 0 candidato eleito
+15 - CIDADANIA - 23, 114.121 votos (110.652 nominais e 3.469 de legenda), 0 candidato eleito
+16 - PC do B - 65, 63.854 votos (61.260 nominais e 2.594 de legenda), 1 candidato eleito
+17 - PRTB - 28, 51.142 votos (50.896 nominais e 246 de legenda), 0 candidato eleito
+18 - PSDB - 45, 27.826 votos (22.596 nominais e 5.230 de legenda), 0 candidato eleito
+19 - PATRIOTA - 51, 16.122 votos (14.526 nominais e 1.596 de legenda), 0 candidato eleito
+20 - NOVO - 30, 12.947 votos (11.851 nominais e 1.096 de legenda), 0 candidato eleito
+21 - PMN - 33, 10.080 votos (9.383 nominais e 697 de legenda), 0 candidato eleito
+22 - PSD - 55, 6.246 votos (3.276 nominais e 2.970 de legenda), 0 candidato eleito
+23 - PSC - 20, 6.176 votos (5.228 nominais e 948 de legenda), 0 candidato eleito
+24 - PTB - 14, 5.598 votos (2.913 nominais e 2.685 de legenda), 0 candidato eleito
+25 - PCB - 21, 3.873 votos (2.847 nominais e 1.026 de legenda), 0 candidato eleito
+26 - AGIR - 36, 3.609 votos (3.041 nominais e 568 de legenda), 0 candidato eleito
+27 - UP - 80, 3.376 votos (3.178 nominais e 198 de legenda), 0 candidato eleito
+28 - DC - 27, 3.140 votos (2.927 nominais e 213 de legenda), 0 candidato eleito
+29 - PSTU - 16, 1.873 votos (883 nominais e 990 de legenda), 0 candidato eleito
+30 - PROS - 90, 827 votos (0 nominal e 827 de legenda), 0 candidato eleito
+31 - PMB - 35, 408 votos (27 nominais e 381 de legenda), 0 candidato eleito
+32 - PCO - 29, 126 votos (0 nominal e 126 de legenda), 0 candidato eleito
+
+Primeiro e último colocados de cada partido:
+1 - PL - 22, ANDRÉ FERREIRA (2222, 273.267 votos) / DRA APARECIDA TERTO (2224, 229 votos)
+2 - PP - 11, CLARISSA TÉRCIO (1122, 240.511 votos) / PASTOR LUIZ EDUARDO (1136, 643 votos)
+3 - PSB - 40, PEDRO CAMPOS (4040, 172.526 votos) / MIRELA VOZES NEGRAS (4046, 266 votos)
+4 - REPUBLICANOS - 10, SILVIO COSTA FILHO (1010, 162.056 votos) / LIDIA ROCHA (1078, 77 votos)
+5 - UNIÃO - 44, FERNANDO FILHO (4401, 155.305 votos) / RENATA LIMA (4402, 433 votos)
+6 - AVANTE - 70, WALDEMAR OLIVEIRA (7070, 141.386 votos) / CANTOR J NETO (7028, 231 votos)
+7 - REDE - 18, TÚLIO GADELHA (1818, 134.391 votos) /  ANGELO BRANCO (1883, 530 votos)
+8 - PT - 13, CARLOS VERAS (1314, 127.482 votos) / GORETHE LUCENA COLETIVO LINDU (1320, 827 votos)
+9 - PV - 43, CLODOALDO MAGALHÃES (4333, 110.620 votos) / IRENE LACERDA (4343, 310 votos)
+10 - CIDADANIA - 23, DANIEL COELHO (2323, 110.511 votos) / BRANCA DURVANICE (2334, 141 votos)
+11 - SOLIDARIEDADE - 77, MARIA ARRAES (7713, 104.571 votos) / INDIO (7744, 989 votos)
+12 - MDB - 15, IZA ARRUDA (1555, 103.950 votos) / TCHELLE SANTOS (1554, 167 votos)
+13 - PSOL - 50, ROBEYONCÉ (5000, 80.732 votos) / MARIOZINHO RIBEIRO (5010, 367 votos)
+14 - PODE - 19, RICARDO TEOBALDO (1919, 78.880 votos) / LUANA CAROANE (1907, 66 votos)
+15 - PDT - 12, WOLNEY QUEIROZ (1234, 63.242 votos) / NAYANA CRUZ (1266, 114 votos)
+16 - PC do B - 65, RENILDO CALHEIROS (6513, 59.686 votos) / AILZA TRAJANO (6565, 678 votos)
+17 - PRTB - 28, CHARLLES DE TIRINGA (2800, 41.497 votos) / MARIA EUNICE (2868, 5 votos)
+18 - NOVO - 30, GEORGE BASTOS (3030, 6.740 votos) / JONATHAN COSTA (3066, 116 votos)
+19 - PSDB - 45, GLAUCIA ANDRADE (4500, 5.197 votos) / SOLANGE BRAZ (4570, 17 votos)
+20 - PSC - 20, DR ARI FERREIRA DUTRA (2020, 3.171 votos) / ASSIS (2076, 8 votos)
+21 - PSD - 55, THIAGO DOCA (5555, 3.136 votos) / GLEICE MAGA (5511, 140 votos)
+22 - UP - 80, LUDMILA OUTTES (8080, 3.086 votos) / JOÃO PEDRO (8000, 92 votos)
+23 - PATRIOTA - 51, DEBORAH LEITE (5151, 2.773 votos) / ANSELMO SANTIAGO (5121, 55 votos)
+24 - PCB - 21, VICTÓRIA PINHEIRO (2121, 2.576 votos) / ANTÔNIO OXIS (2100, 271 votos)
+25 - PMN - 33, ALESSANDRA DO POVO (3344, 1.388 votos) / ANA LUCIA JERONIMO (3350, 43 votos)
+26 - PTB - 14, CAPITÃO SALAS (1414, 1.085 votos) / NICELIA BORGES (1411, 96 votos)
+27 - AGIR - 36, NILSON JOSÉ (3699, 634 votos) / NEIDE MEYRELLYS (3631, 6 votos)
+28 - DC - 27, ADILSON BATISTA (2727, 491 votos) / ERONILDES BARBOSA (2721, 9 votos)
+29 - PSTU - 16, HELIO CABRAL (1616, 447 votos) / SIMONE FONTANA (1606, 436 votos)
+30 - PMB - 35, PAULA FERNANDA (3535, 27 votos) / PAULA FERNANDA (3535, 27 votos)
+
+Eleitos, por faixa etária (na data da eleição):
+      Idade < 30: 3 (12,00%)
+30 <= Idade < 40: 6 (24,00%)
+40 <= Idade < 50: 8 (32,00%)
+50 <= Idade < 60: 4 (16,00%)
+60 <= Idade     : 4 (16,00%)
+
+Eleitos, por gênero:
+Feminino:  3 (12,00%)
+Masculino: 22 (88,00%)
+
+Total de votos válidos:    4.970.816
+Total de votos nominais:   4.777.467 (96,11%)
+Total de votos de legenda: 193.349 (3,89%)
+

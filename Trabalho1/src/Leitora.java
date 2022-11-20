@@ -35,7 +35,7 @@ public class Leitora {
 
                 // Tratamento dos partidos
                 // Se o partido ja existe
-                if (!partidos.containsKey(Integer.parseInt(partes[27])))  {
+                if (!partidos.containsKey(Integer.parseInt(partes[27]))) {
                     // caso nao exista, cria partido, insere na tabela, linka
                     Partido novo = new Partido(Integer.parseInt(partes[27]), partes[28]);
                     partidos.put(novo.getNumeroUrna(), novo);
@@ -105,21 +105,25 @@ public class Leitora {
             while (temp != null) {
                 // Divide em campos, tirando aspas
                 String[] partes = temp.split("\";\"");
+                // if (Integer.parseInt(partes[19]) == 95 || Integer.parseInt(partes[19]) == 96
+                // || Integer.parseInt(partes[19]) == 97) {
+                // } else {
 
                 // Se e o cargo procurado, processe o voto
                 if (Integer.parseInt(partes[17]) == filtroCargo) {
+
                     Candidato cand = votacao.get(Integer.parseInt(partes[19]));
                     if (cand != null) {
                         // Se foi voto nomeavel
                         cand.addQntVotos(Integer.parseInt(partes[21]));
-                    } else {
-                        // Foi voto por partido
-                        Partido part = partidos.get(Integer.parseInt(partes[19]));
-                        if (part != null) // Se nao for um branco/nulo/anulado
-                            part.addVotosPartidarios(Integer.parseInt(partes[21]));
                     }
+                    // Foi voto por partido
+                    Partido part = partidos.get(Integer.parseInt(partes[19]));
+                    if (part != null) // Se nao for um branco/nulo/anulado
+                        part.addVotosPartidarios(Integer.parseInt(partes[21]));
                 }
                 temp = ArqSec.readLine();
+                // }
             }
         } catch (NumberFormatException e) {
             // parse deu erro (Formatacao incorreta)

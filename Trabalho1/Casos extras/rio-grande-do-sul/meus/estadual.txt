@@ -1,0 +1,215 @@
+Número de vagas: 55
+
+Deputados estaduais eleitos:
+1 - GUSTAVO VICTORINO (REPUBLICANOS, 112.920 votos)
+2 - *LUCIANA GENRO (PSOL, 111.126 votos)
+3 - RODRIGO LORENZONI (PL, 85.692 votos)
+4 - SILVANA COVATTI (PP, 82.717 votos)
+5 - *MATHEUS GOMES (PSOL, 82.401 votos)
+6 - SERGIO PERES (REPUBLICANOS, 74.685 votos)
+7 - *VALDECI OLIVEIRA (PT, 70.580 votos)
+8 - *PEPE VARGAS (PT, 69.949 votos)
+9 - ERNANI POLO (PP, 67.515 votos)
+10 - COSTELLA (MDB, 66.971 votos)
+11 - *ADÃO PRETTO (PT, 66.457 votos)
+12 - KELLY MORAES (PL, 62.621 votos)
+13 - DIRCEU FRANCISCON (UNIÃO, 61.797 votos)
+14 - *JEFERSON FERNANDES (PT, 60.280 votos)
+15 - DELEGADO ZUCCO (REPUBLICANOS, 59.648 votos)
+16 - PAPARICO BACCHI (PL, 59.646 votos)
+17 - GUILHERME PASIN (PP, 57.922 votos)
+18 - *MAINARDI (PT, 56.859 votos)
+19 - *BRUNA RODRIGUES (PC do B, 51.865 votos)
+20 - EDUARDO LOUREIRO (PDT, 50.667 votos)
+21 - BETO FANTINEL (MDB, 49.771 votos)
+22 - *PROFESSOR BONATTO (PSDB, 48.409 votos)
+23 - PATRICIA ALBA (MDB, 44.871 votos)
+24 - VILMAR ZANCHIN (MDB, 44.367 votos)
+25 - *LEONEL RADDE (PT, 44.300 votos)
+26 - *ZÉ NUNES (PT, 44.035 votos)
+27 - * DELEGADA NADINE (PSDB, 40.937 votos)
+28 - FELIPE CAMOZZATO (NOVO, 39.517 votos)
+29 - JOEL DE IGREJINHA (PP, 39.225 votos)
+30 - *SOFIA CAVEDON (PT, 39.039 votos)
+31 - *STELA FARIAS (PT, 37.957 votos)
+32 - *MIGUEL ROSSETTO (PT, 37.790 votos)
+33 - LUCIANO SILVEIRA (MDB, 36.770 votos)
+34 - *LAURA SITO (PT, 36.705 votos)
+35 - FREDERICO ANTUNES (PP, 36.325 votos)
+36 - ELTON WEBER (PSB, 35.465 votos)
+37 - ELIANA BAYER (REPUBLICANOS, 35.288 votos)
+38 - EDIVILSON BRUM (MDB, 34.358 votos)
+39 - PROFESSOR CLAUDIO (PODE, 33.709 votos)
+40 - GAÚCHO DA GERAL (PSD, 32.717 votos)
+41 - *NERI O CARTEIRO (PSDB, 32.378 votos)
+42 - ELIZANDRO SABINO (PTB, 31.937 votos)
+43 - *PEDRO PEREIRA  (PSDB, 31.255 votos)
+44 - MARCUS VINÍCIUS (PP, 30.894 votos)
+45 - CLASSMANN (UNIÃO, 29.671 votos)
+46 - CAPITÃO MARTIM (REPUBLICANOS, 29.040 votos)
+47 - ADRIANA LARA (PL, 28.309 votos)
+48 - SANTINI (PODE, 28.294 votos)
+49 - ADOLFO BRITO (PP, 28.115 votos)
+50 - DR THIAGO (UNIÃO, 27.814 votos)
+51 - LUIZ MARENCO (PDT, 27.624 votos)
+52 - GERSON BURMANN (PDT, 27.109 votos)
+53 - *KAKÁ D ÁVILA (PSDB, 26.766 votos)
+54 - CLAUDIO TATSCH (PL, 25.979 votos)
+55 - SOSSELLA (PDT, 24.946 votos)
+
+Candidatos mais votados (em ordem decrescente de votação e respeitando número de vagas):
+1 - GUSTAVO VICTORINO (REPUBLICANOS, 112.920 votos)
+2 - *LUCIANA GENRO (PSOL, 111.126 votos)
+3 - RODRIGO LORENZONI (PL, 85.692 votos)
+4 - SILVANA COVATTI (PP, 82.717 votos)
+5 - *MATHEUS GOMES (PSOL, 82.401 votos)
+6 - SERGIO PERES (REPUBLICANOS, 74.685 votos)
+7 - *VALDECI OLIVEIRA (PT, 70.580 votos)
+8 - *PEPE VARGAS (PT, 69.949 votos)
+9 - ERNANI POLO (PP, 67.515 votos)
+10 - COSTELLA (MDB, 66.971 votos)
+11 - *ADÃO PRETTO (PT, 66.457 votos)
+12 - KELLY MORAES (PL, 62.621 votos)
+13 - DIRCEU FRANCISCON (UNIÃO, 61.797 votos)
+14 - *JEFERSON FERNANDES (PT, 60.280 votos)
+15 - DELEGADO ZUCCO (REPUBLICANOS, 59.648 votos)
+16 - PAPARICO BACCHI (PL, 59.646 votos)
+17 - GUILHERME PASIN (PP, 57.922 votos)
+18 - *MAINARDI (PT, 56.859 votos)
+19 - *BRUNA RODRIGUES (PC do B, 51.865 votos)
+20 - EDUARDO LOUREIRO (PDT, 50.667 votos)
+21 - BETO FANTINEL (MDB, 49.771 votos)
+22 - *PROFESSOR BONATTO (PSDB, 48.409 votos)
+23 - PATRICIA ALBA (MDB, 44.871 votos)
+24 - VILMAR ZANCHIN (MDB, 44.367 votos)
+25 - *LEONEL RADDE (PT, 44.300 votos)
+26 - *ZÉ NUNES (PT, 44.035 votos)
+27 - * DELEGADA NADINE (PSDB, 40.937 votos)
+28 - *KAREN SANTOS (PSOL, 40.553 votos)
+29 - FELIPE CAMOZZATO (NOVO, 39.517 votos)
+30 - JOEL DE IGREJINHA (PP, 39.225 votos)
+31 - *SOFIA CAVEDON (PT, 39.039 votos)
+32 - *STELA FARIAS (PT, 37.957 votos)
+33 - *MIGUEL ROSSETTO (PT, 37.790 votos)
+34 - LUCIANO SILVEIRA (MDB, 36.770 votos)
+35 - *LAURA SITO (PT, 36.705 votos)
+36 - FREDERICO ANTUNES (PP, 36.325 votos)
+37 - *HALLEY (PT, 36.150 votos)
+38 - ELTON WEBER (PSB, 35.465 votos)
+39 - ELIANA BAYER (REPUBLICANOS, 35.288 votos)
+40 - *ANA AFFONSO (PT, 35.256 votos)
+41 - *MANECO HASSEN (PT, 34.532 votos)
+42 - EDIVILSON BRUM (MDB, 34.358 votos)
+43 - RAFAEL BRAGA LIBRELOTTO (MDB, 33.930 votos)
+44 - PROFESSOR CLAUDIO (PODE, 33.709 votos)
+45 - CARLOS BÚRIGO (MDB, 33.611 votos)
+46 - GAÚCHO DA GERAL (PSD, 32.717 votos)
+47 - *NERI O CARTEIRO (PSDB, 32.378 votos)
+48 - ELIZANDRO SABINO (PTB, 31.937 votos)
+49 - *PEDRO PEREIRA  (PSDB, 31.255 votos)
+50 - MARCUS VINÍCIUS (PP, 30.894 votos)
+51 - CLASSMANN (UNIÃO, 29.671 votos)
+52 - TIAGO SIMON (MDB, 29.185 votos)
+53 - CAPITÃO MARTIM (REPUBLICANOS, 29.040 votos)
+54 - *FERNANDO MARRONI (PT, 28.884 votos)
+55 - TANIA DA SILVA (MDB, 28.840 votos)
+
+Teriam sido eleitos se a votação fosse majoritária, e não foram eleitos:
+(com sua posição no ranking de mais votados)
+28 - *KAREN SANTOS (PSOL, 40.553 votos)
+37 - *HALLEY (PT, 36.150 votos)
+40 - *ANA AFFONSO (PT, 35.256 votos)
+41 - *MANECO HASSEN (PT, 34.532 votos)
+43 - RAFAEL BRAGA LIBRELOTTO (MDB, 33.930 votos)
+45 - CARLOS BÚRIGO (MDB, 33.611 votos)
+52 - TIAGO SIMON (MDB, 29.185 votos)
+54 - *FERNANDO MARRONI (PT, 28.884 votos)
+55 - TANIA DA SILVA (MDB, 28.840 votos)
+
+Eleitos, que se beneficiaram do sistema proporcional:
+(com sua posição no ranking de mais votados)
+56 - ADRIANA LARA (PL, 28.309 votos)
+57 - SANTINI (PODE, 28.294 votos)
+59 - ADOLFO BRITO (PP, 28.115 votos)
+63 - DR THIAGO (UNIÃO, 27.814 votos)
+65 - LUIZ MARENCO (PDT, 27.624 votos)
+67 - GERSON BURMANN (PDT, 27.109 votos)
+69 - *KAKÁ D ÁVILA (PSDB, 26.766 votos)
+70 - CLAUDIO TATSCH (PL, 25.979 votos)
+73 - SOSSELLA (PDT, 24.946 votos)
+
+Votação dos partidos e número de candidatos eleitos:
+1 - PT - 13, 1.102.508 votos (962.925 nominais e 139.583 de legenda), 11 candidatos eleitos
+2 - PP - 11, 693.464 votos (674.840 nominais e 18.624 de legenda), 7 candidatos eleitos
+3 - MDB - 15, 629.558 votos (612.195 nominais e 17.363 de legenda), 6 candidatos eleitos
+4 - REPUBLICANOS - 10, 546.106 votos (512.192 nominais e 33.914 de legenda), 5 candidatos eleitos
+5 - PL - 22, 519.833 votos (472.809 nominais e 47.024 de legenda), 5 candidatos eleitos
+6 - PDT - 12, 467.723 votos (448.188 nominais e 19.535 de legenda), 4 candidatos eleitos
+7 - PSDB - 45, 443.978 votos (422.471 nominais e 21.507 de legenda), 5 candidatos eleitos
+8 - UNIÃO - 44, 305.406 votos (299.357 nominais e 6.049 de legenda), 3 candidatos eleitos
+9 - PSOL - 50, 286.076 votos (279.030 nominais e 7.046 de legenda), 2 candidatos eleitos
+10 - PODE - 19, 196.671 votos (191.824 nominais e 4.847 de legenda), 2 candidatos eleitos
+11 - PSD - 55, 181.035 votos (160.252 nominais e 20.783 de legenda), 1 candidato eleito
+12 - PSB - 40, 160.139 votos (154.751 nominais e 5.388 de legenda), 1 candidato eleito
+13 - NOVO - 30, 147.221 votos (136.708 nominais e 10.513 de legenda), 1 candidato eleito
+14 - PTB - 14, 106.233 votos (101.502 nominais e 4.731 de legenda), 1 candidato eleito
+15 - CIDADANIA - 23, 99.654 votos (96.294 nominais e 3.360 de legenda), 0 candidato eleito
+16 - PSC - 20, 91.989 votos (89.428 nominais e 2.561 de legenda), 0 candidato eleito
+17 - PC do B - 65, 76.327 votos (73.313 nominais e 3.014 de legenda), 1 candidato eleito
+18 - AVANTE - 70, 32.155 votos (30.311 nominais e 1.844 de legenda), 0 candidato eleito
+19 - SOLIDARIEDADE - 77, 29.106 votos (27.953 nominais e 1.153 de legenda), 0 candidato eleito
+20 - PATRIOTA - 51, 20.643 votos (19.712 nominais e 931 de legenda), 0 candidato eleito
+21 - PV - 43, 8.590 votos (7.382 nominais e 1.208 de legenda), 0 candidato eleito
+22 - PCB - 21, 3.833 votos (2.769 nominais e 1.064 de legenda), 0 candidato eleito
+23 - REDE - 18, 2.763 votos (1.985 nominais e 778 de legenda), 0 candidato eleito
+24 - PRTB - 28, 2.439 votos (2.195 nominais e 244 de legenda), 0 candidato eleito
+25 - PSTU - 16, 1.883 votos (967 nominais e 916 de legenda), 0 candidato eleito
+26 - DC - 27, 466 votos (232 nominais e 234 de legenda), 0 candidato eleito
+27 - AGIR - 36, 373 votos (0 nominal e 373 de legenda), 0 candidato eleito
+28 - PCO - 29, 138 votos (0 nominal e 138 de legenda), 0 candidato eleito
+29 - UP - 80, 0 voto (0 nominal e 0 de legenda), 0 candidato eleito
+30 - PROS - 90, 0 voto (0 nominal e 0 de legenda), 0 candidato eleito
+
+Primeiro e último colocados de cada partido:
+1 - REPUBLICANOS - 10, GUSTAVO VICTORINO (10022, 112.920 votos) / ANINHA OVIEDO (10512, 91 votos)
+2 - PSOL - 50, LUCIANA GENRO (50000, 111.126 votos) / GUILHERME GIL (50950, 40 votos)
+3 - PL - 22, RODRIGO LORENZONI (22222, 85.692 votos) / RAQUEL BAIRROS (22777, 226 votos)
+4 - PP - 11, SILVANA COVATTI (11111, 82.717 votos) / CREUZA BARRETO (11811, 52 votos)
+5 - PT - 13, VALDECI OLIVEIRA (13713, 70.580 votos) / PATRICIA LOUPEE (13223, 120 votos)
+6 - MDB - 15, COSTELLA (15234, 66.971 votos) / ROSEMARIE STEIN (15216, 79 votos)
+7 - UNIÃO - 44, DIRCEU FRANCISCON (44444, 61.797 votos) / TONI MATRIX (44320, 4 votos)
+8 - PC do B - 65, BRUNA RODRIGUES (65651, 51.865 votos) / BRUNA E COLETIVO (65065, 1.960 votos)
+9 - PDT - 12, EDUARDO LOUREIRO (12412, 50.667 votos) / LEILA CASTRO (12433, 64 votos)
+10 - PSDB - 45, PROFESSOR BONATTO (45888, 48.409 votos) / LIZANDRA DA ROSA BORGES (45054, 94 votos)
+11 - NOVO - 30, FELIPE CAMOZZATO (30000, 39.517 votos) / LUCIANA CHAVES (30842, 276 votos)
+12 - PSB - 40, ELTON WEBER (40120, 35.465 votos) / PATRÍCIA ALMEIDA (40722, 79 votos)
+13 - PODE - 19, PROFESSOR CLAUDIO (19222, 33.709 votos) / RAQUEL FERREIRA (19475, 91 votos)
+14 - PSD - 55, GAÚCHO DA GERAL (55555, 32.717 votos) / PABLO HERNANDEZ (55210, 54 votos)
+15 - PTB - 14, ELIZANDRO SABINO (14777, 31.937 votos) / LUIZ MARQUES CAVERA (14480, 27 votos)
+16 - CIDADANIA - 23, JESSE SANGALLI (23200, 21.591 votos) / PROF CATIA COLOMBO (23400, 414 votos)
+17 - PSC - 20, FERNANDA BARTH (20022, 20.683 votos) / MARGARET ROTTMANN (20789, 30 votos)
+18 - AVANTE - 70, MARCIO FREITAS (70123, 18.735 votos) / VITOR LOPES (70010, 10 votos)
+19 - PATRIOTA - 51, SANDRO FANTINEL (51022, 7.115 votos) / SANDRO MARQUES (51983, 92 votos)
+20 - SOLIDARIEDADE - 77, CLAUDIO JANTA (77377, 6.859 votos) / IZABELLA CANABARRO (77162, 37 votos)
+21 - PV - 43, ATIVISTA GABRIEL GONÇALVES (43043, 6.397 votos) / DAIA FRAGA (43888, 233 votos)
+22 - PCB - 21, LEO SILVESTRIN (21021, 2.618 votos) / ELISA (21210, 151 votos)
+23 - PRTB - 28, NANDO SANTOS (28000, 1.642 votos) / BARBARA GOMES DA SILVEIRA (28612, 10 votos)
+24 - REDE - 18, NELCIR ANDRÉ (18999, 741 votos) / PROF RITA (18000, 112 votos)
+25 - PSTU - 16, ANA RITA (16016, 668 votos) / IVAN (16789, 119 votos)
+26 - DC - 27, CHEILA GULGELMIN (27123, 86 votos) / FERNANDO PEPO (27079, 35 votos)
+
+Eleitos, por faixa etária (na data da eleição):
+      Idade < 30: 0 (0,00%)
+30 <= Idade < 40: 10 (18,18%)
+40 <= Idade < 50: 14 (25,45%)
+50 <= Idade < 60: 20 (36,36%)
+60 <= Idade     : 11 (20,00%)
+
+Eleitos, por gênero:
+Feminino:  11 (20,00%)
+Masculino: 44 (80,00%)
+
+Total de votos válidos:    6.156.310
+Total de votos nominais:   5.781.585 (93,91%)
+Total de votos de legenda: 374.725 (6,09%)
+

@@ -79,7 +79,7 @@ public class Candidato implements Comparable<Candidato> {
         if (arg0.qntVotos.compareTo(qntVotos) != 0)
             return arg0.qntVotos.compareTo(qntVotos);
         else {
-            return arg0.nasc.compareTo(nasc);
+            return this.nasc.compareTo(arg0.nasc);
         }
     }
 

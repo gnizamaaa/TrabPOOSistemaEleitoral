@@ -1,0 +1,103 @@
+Número de vagas: 9
+
+Deputados federais eleitos:
+1 - ARTHUR LIRA (PP, 219.452 votos)
+2 - ALFREDO GASPAR (UNIÃO, 102.039 votos)
+3 - *LUCIANO AMARAL (PV, 101.508 votos)
+4 - MARX BELTRÃO (PP, 88.512 votos)
+5 - ISNALDO BULHÕES JR (MDB, 83.965 votos)
+6 - *PAULÃO (PT, 65.814 votos)
+7 - DANIEL BARBOSA (PP, 63.385 votos)
+8 - DELEGADO FABIO COSTA (PP, 60.767 votos)
+9 - RAFAEL BRITO (TIO RAFA) (MDB, 58.134 votos)
+
+Candidatos mais votados (em ordem decrescente de votação e respeitando número de vagas):
+1 - ARTHUR LIRA (PP, 219.452 votos)
+2 - ALFREDO GASPAR (UNIÃO, 102.039 votos)
+3 - *LUCIANO AMARAL (PV, 101.508 votos)
+4 - DR JHC (PSB, 92.594 votos)
+5 - MARX BELTRÃO (PP, 88.512 votos)
+6 - ISNALDO BULHÕES JR (MDB, 83.965 votos)
+7 - NIVALDO ALBUQUERQUE (REPUBLICANOS, 67.697 votos)
+8 - *PAULÃO (PT, 65.814 votos)
+9 - DANIEL BARBOSA (PP, 63.385 votos)
+
+Teriam sido eleitos se a votação fosse majoritária, e não foram eleitos:
+(com sua posição no ranking de mais votados)
+4 - DR JHC (PSB, 92.594 votos)
+7 - NIVALDO ALBUQUERQUE (REPUBLICANOS, 67.697 votos)
+
+Eleitos, que se beneficiaram do sistema proporcional:
+(com sua posição no ranking de mais votados)
+10 - DELEGADO FABIO COSTA (PP, 60.767 votos)
+11 - RAFAEL BRITO (TIO RAFA) (MDB, 58.134 votos)
+
+Votação dos partidos e número de candidatos eleitos:
+1 - PP - 11, 546.041 votos (534.588 nominais e 11.453 de legenda), 4 candidatos eleitos
+2 - MDB - 15, 260.713 votos (245.321 nominais e 15.392 de legenda), 2 candidatos eleitos
+3 - UNIÃO - 44, 170.932 votos (167.578 nominais e 3.354 de legenda), 1 candidato eleito
+4 - PV - 43, 154.978 votos (152.789 nominais e 2.189 de legenda), 1 candidato eleito
+5 - REPUBLICANOS - 10, 146.523 votos (144.070 nominais e 2.453 de legenda), 0 candidato eleito
+6 - PSB - 40, 117.921 votos (117.029 nominais e 892 de legenda), 0 candidato eleito
+7 - PT - 13, 79.102 votos (69.519 nominais e 9.583 de legenda), 1 candidato eleito
+8 - PSD - 55, 78.589 votos (77.555 nominais e 1.034 de legenda), 0 candidato eleito
+9 - PSDB - 45, 43.704 votos (42.086 nominais e 1.618 de legenda), 0 candidato eleito
+10 - PDT - 12, 16.018 votos (10.385 nominais e 5.633 de legenda), 0 candidato eleito
+11 - PTB - 14, 10.738 votos (9.620 nominais e 1.118 de legenda), 0 candidato eleito
+12 - AVANTE - 70, 6.718 votos (5.197 nominais e 1.521 de legenda), 0 candidato eleito
+13 - PSOL - 50, 4.624 votos (4.159 nominais e 465 de legenda), 0 candidato eleito
+14 - CIDADANIA - 23, 3.266 votos (2.932 nominais e 334 de legenda), 0 candidato eleito
+15 - PATRIOTA - 51, 3.040 votos (2.634 nominais e 406 de legenda), 0 candidato eleito
+16 - UP - 80, 2.369 votos (2.298 nominais e 71 de legenda), 0 candidato eleito
+17 - SOLIDARIEDADE - 77, 1.865 votos (1.417 nominais e 448 de legenda), 0 candidato eleito
+18 - PMN - 33, 1.092 votos (772 nominais e 320 de legenda), 0 candidato eleito
+19 - AGIR - 36, 659 votos (538 nominais e 121 de legenda), 0 candidato eleito
+20 - PSTU - 16, 527 votos (256 nominais e 271 de legenda), 0 candidato eleito
+21 - PMB - 35, 383 votos (255 nominais e 128 de legenda), 0 candidato eleito
+22 - PC do B - 65, 230 votos (0 nominal e 230 de legenda), 0 candidato eleito
+23 - DC - 27, 211 votos (173 nominais e 38 de legenda), 0 candidato eleito
+24 - PROS - 90, 121 votos (0 nominal e 121 de legenda), 0 candidato eleito
+25 - PCO - 29, 89 votos (74 nominais e 15 de legenda), 0 candidato eleito
+26 - PRTB - 28, 38 votos (0 nominal e 38 de legenda), 0 candidato eleito
+27 - PL - 22, 0 voto (0 nominal e 0 de legenda), 0 candidato eleito
+
+Primeiro e último colocados de cada partido:
+1 - PP - 11, ARTHUR LIRA (1111, 219.452 votos) / MARLY RIBEIRO (1123, 1.475 votos)
+2 - UNIÃO - 44, ALFREDO GASPAR (4444, 102.039 votos) / LUCIA CAVALCANTE (4407, 78 votos)
+3 - PV - 43, LUCIANO AMARAL (4343, 101.508 votos) / SANDRA MENEZES (4301, 699 votos)
+4 - PSB - 40, DR JHC (4040, 92.594 votos) / NICOLE CALHEIROS (4055, 350 votos)
+5 - MDB - 15, ISNALDO BULHÕES JR (1515, 83.965 votos) / JULLYENE LINS (1588, 671 votos)
+6 - REPUBLICANOS - 10, NIVALDO ALBUQUERQUE (1010, 67.697 votos) / LEILA LESSA (1020, 532 votos)
+7 - PT - 13, PAULÃO (1313, 65.814 votos) / TENENTE CORONEL DANIELLI (1300, 3.705 votos)
+8 - PSD - 55, GUSTAVO LIMA (5555, 37.100 votos) / SERGIO CABRAL (5599, 76 votos)
+9 - PSDB - 45, PEDRO VILELA (4545, 25.770 votos) / MONICA PEIXOTO (4577, 598 votos)
+10 - PTB - 14, TENENTE DG (1415, 3.533 votos) / DAYSE LINS (1481, 35 votos)
+11 - PSOL - 50, ALYCIA BANCADA NEGRA (5020, 3.519 votos) / ANINHA DE BACUCA (5055, 62 votos)
+12 - PDT - 12, CARLOS PISCA (1234, 2.934 votos) / VALDEMIR OLIVEIRA (1218, 66 votos)
+13 - CIDADANIA - 23, RÉGIS CAVALCANTE (2323, 2.417 votos) / ISABELLA GOUVEIA (2345, 515 votos)
+14 - UP - 80, LENILDA LUNA (8080, 2.298 votos) / LENILDA LUNA (8080, 2.298 votos)
+15 - AVANTE - 70, LERIDA LOBO (7044, 1.842 votos) / COLETIVO PELA EDUCAÇÃO (7055, 217 votos)
+16 - PATRIOTA - 51, VALGETAN FERREIRA (5151, 642 votos) / APOLONIA (5144, 44 votos)
+17 - SOLIDARIEDADE - 77, MONICA CARVALHO (7777, 555 votos) / NADJA SARAIVA (7714, 32 votos)
+18 - PMN - 33, PROFESSOR ISMAEL (3313, 365 votos) / SORAYA (3300, 50 votos)
+19 - PSTU - 16, PAULO FALCÃO (1616, 256 votos) / PAULO FALCÃO (1616, 256 votos)
+20 - AGIR - 36, WAGNER MOURA (3678, 211 votos) / THYCIA RATTES (3601, 8 votos)
+21 - DC - 27, JOSIMAR FIRMINO (2700, 173 votos) / JOSIMAR FIRMINO (2700, 173 votos)
+22 - PMB - 35, GILVAN MENEZES (3500, 130 votos) / JAMMES SOBREIRA (3533, 26 votos)
+23 - PCO - 29, MARINA TENÓRIO (2929, 55 votos) / LEONARDO FILHO (2930, 19 votos)
+
+Eleitos, por faixa etária (na data da eleição):
+      Idade < 30: 0 (0,00%)
+30 <= Idade < 40: 2 (22,22%)
+40 <= Idade < 50: 4 (44,44%)
+50 <= Idade < 60: 2 (22,22%)
+60 <= Idade     : 1 (11,11%)
+
+Eleitos, por gênero:
+Feminino:  0 (0,00%)
+Masculino: 9 (100,00%)
+
+Total de votos válidos:    1.650.491
+Total de votos nominais:   1.591.245 (96,41%)
+Total de votos de legenda: 59.246 (3,59%)
+

@@ -13,7 +13,7 @@ public class Relatorio {
      * 
      * @param eleitos - Lista de candidatos eleitos ordenada em ordem crescente
      */
-    public static void estatisticasEleitos(List<Candidato> eleitos) {
+    public static void estatisticasEleitos(List<Candidato> eleitos, LocalDate datEle) {
 
         double sub30 = 0, sub40 = 0, sub50 = 0, sub60 = 0, up60 = 0;
         int fem = 0, masc = 0, nb = 0;
@@ -21,7 +21,7 @@ public class Relatorio {
 
             char genero = e.getGenero();
             LocalDate nasc = e.getNasc();
-            int idade = Period.between(nasc, LocalDate.now()).getYears();
+            int idade = Period.between(nasc, datEle).getYears();
 
             if (genero == 'F')
                 fem++;
@@ -52,14 +52,14 @@ public class Relatorio {
 
         System.out.println("\nEleitos, por faixa etária (na data da eleição):");
         System.out.println(
-                "\t  Idade < 30: " + nf.format(sub30) + " (" + format.format((sub30 / eleitos.size())) + ")");
+                "      Idade < 30: " + nf.format(sub30) + " (" + format.format((sub30 / eleitos.size())) + ")");
         System.out
                 .println("30 <= Idade < 40: " + nf.format(sub40) + " (" + format.format(sub40 / eleitos.size()) + ")");
         System.out
                 .println("40 <= Idade < 50: " + nf.format(sub50) + " (" + format.format(sub50 / eleitos.size()) + ")");
         System.out
                 .println("50 <= Idade < 60: " + nf.format(sub60) + " (" + format.format(sub60 / eleitos.size()) + ")");
-        System.out.println("60 <= Idade\t: " + nf.format(up60) + " (" + format.format(up60 / eleitos.size()) + ")");
+        System.out.println("60 <= Idade     : " + nf.format(up60) + " (" + format.format(up60 / eleitos.size()) + ")");
 
         System.out.println("\nEleitos, por gênero:");
         System.out.println("Feminino:  " + fem + " (" + format.format(fem / (double) eleitos.size()) + ")");
@@ -91,10 +91,10 @@ public class Relatorio {
         for (Partido c : listaPartido)
             votosLegenda += c.getVotosPartidarios();
 
-        System.out.println("\nTotal de votos válidos:       " + nf.format(votosLegenda + votosNominais));
-        System.out.println("Total de votos nominais:      " + nf.format(votosNominais) + " ("
+        System.out.println("\nTotal de votos válidos:    " + nf.format(votosLegenda + votosNominais));
+        System.out.println("Total de votos nominais:   " + nf.format(votosNominais) + " ("
                 + format.format(votosNominais / (double) (votosLegenda + votosNominais)) + ")");
-        System.out.println("Total de votos de legenda:    " + nf.format(votosLegenda) + " ("
+        System.out.println("Total de votos de legenda: " + nf.format(votosLegenda) + " ("
                 + format.format(votosLegenda / (double) (votosLegenda + votosNominais)) + ")");
     }
 
