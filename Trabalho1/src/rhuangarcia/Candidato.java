@@ -1,3 +1,4 @@
+package rhuangarcia;
 import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.util.List;
