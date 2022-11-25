@@ -1,4 +1,5 @@
 package rhuangarcia;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.LocalDate;
@@ -40,6 +41,7 @@ public class App {
 
         if (filtroCargo != 6 & filtroCargo != 7) {
             System.out.println("Votacao pedida nao esta prevista!");
+            System.exit(0);
         }
 
         ArrayList<Candidato> eleitos = new ArrayList<>();
@@ -58,9 +60,11 @@ public class App {
 
         } catch (FileNotFoundException e1) {
             System.out.println("Arquivo(s) indisponiveis ou nao acessiveis");
+            System.exit(0);
         } catch (IOException e1) {
             System.out.println("Erro de IO nao previsto, forneça o stack abaixo ao dev:");
             e1.printStackTrace();
+            System.exit(0);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Nome para o arquivo nao foi passado");
             System.exit(0);

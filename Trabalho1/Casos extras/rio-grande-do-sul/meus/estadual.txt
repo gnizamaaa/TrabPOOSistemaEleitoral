@@ -150,7 +150,7 @@ Votação dos partidos e número de candidatos eleitos:
 9 - PSOL - 50, 286.076 votos (279.030 nominais e 7.046 de legenda), 2 candidatos eleitos
 10 - PODE - 19, 196.671 votos (191.824 nominais e 4.847 de legenda), 2 candidatos eleitos
 11 - PSD - 55, 181.035 votos (160.252 nominais e 20.783 de legenda), 1 candidato eleito
-12 - PSB - 40, 160.139 votos (154.751 nominais e 5.388 de legenda), 1 candidato eleito
+12 - PSB - 40, 151.163 votos (145.775 nominais e 5.388 de legenda), 1 candidato eleito
 13 - NOVO - 30, 147.221 votos (136.708 nominais e 10.513 de legenda), 1 candidato eleito
 14 - PTB - 14, 106.233 votos (101.502 nominais e 4.731 de legenda), 1 candidato eleito
 15 - CIDADANIA - 23, 99.654 votos (96.294 nominais e 3.360 de legenda), 0 candidato eleito
@@ -209,7 +209,7 @@ Eleitos, por gênero:
 Feminino:  11 (20,00%)
 Masculino: 44 (80,00%)
 
-Total de votos válidos:    6.156.310
-Total de votos nominais:   5.781.585 (93,91%)
-Total de votos de legenda: 374.725 (6,09%)
+Total de votos válidos:    6.147.334
+Total de votos nominais:   5.772.609 (93,90%)
+Total de votos de legenda: 374.725 (6,10%)
 

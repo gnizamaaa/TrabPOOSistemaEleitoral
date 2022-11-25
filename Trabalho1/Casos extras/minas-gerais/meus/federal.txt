@@ -137,8 +137,8 @@ Votação dos partidos e número de candidatos eleitos:
 8 - PDT - 12, 425.633 votos (402.407 nominais e 23.226 de legenda), 2 candidatos eleitos
 9 - MDB - 15, 403.038 votos (394.321 nominais e 8.717 de legenda), 2 candidatos eleitos
 10 - REPUBLICANOS - 10, 371.939 votos (367.503 nominais e 4.436 de legenda), 2 candidatos eleitos
-11 - PSDB - 45, 314.097 votos (306.576 nominais e 7.521 de legenda), 2 candidatos eleitos
-12 - PODE - 19, 309.054 votos (306.867 nominais e 2.187 de legenda), 2 candidatos eleitos
+11 - PODE - 19, 338.977 votos (306.867 nominais e 32.110 de legenda), 2 candidatos eleitos
+12 - PSDB - 45, 314.097 votos (306.576 nominais e 7.521 de legenda), 2 candidatos eleitos
 13 - PSC - 20, 258.888 votos (246.499 nominais e 12.389 de legenda), 1 candidato eleito
 14 - PSOL - 50, 204.915 votos (197.879 nominais e 7.036 de legenda), 1 candidato eleito
 15 - PROS - 90, 185.985 votos (184.875 nominais e 1.110 de legenda), 1 candidato eleito
@@ -205,7 +205,7 @@ Eleitos, por gênero:
 Feminino:  9 (16,98%)
 Masculino: 44 (83,02%)
 
-Total de votos válidos:    11.151.175
-Total de votos nominais:   10.787.355 (96,74%)
-Total de votos de legenda: 363.820 (3,26%)
+Total de votos válidos:    11.181.098
+Total de votos nominais:   10.787.355 (96,48%)
+Total de votos de legenda: 393.743 (3,52%)
 

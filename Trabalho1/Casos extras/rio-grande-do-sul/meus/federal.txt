@@ -82,7 +82,7 @@ Eleitos, que se beneficiaram do sistema proporcional:
 
 Votação dos partidos e número de candidatos eleitos:
 1 - PT - 13, 1.040.725 votos (945.565 nominais e 95.160 de legenda), 6 candidatos eleitos
-2 - PL - 22, 594.281 votos (556.912 nominais e 37.369 de legenda), 4 candidatos eleitos
+2 - PL - 22, 680.192 votos (556.912 nominais e 123.280 de legenda), 4 candidatos eleitos
 3 - MDB - 15, 586.325 votos (575.864 nominais e 10.461 de legenda), 3 candidatos eleitos
 4 - REPUBLICANOS - 10, 549.530 votos (542.183 nominais e 7.347 de legenda), 3 candidatos eleitos
 5 - PP - 11, 522.295 votos (508.102 nominais e 14.193 de legenda), 3 candidatos eleitos
@@ -154,7 +154,7 @@ Eleitos, por gênero:
 Feminino:  6 (19,35%)
 Masculino: 25 (80,65%)
 
-Total de votos válidos:    6.064.078
-Total de votos nominais:   5.826.614 (96,08%)
-Total de votos de legenda: 237.464 (3,92%)
+Total de votos válidos:    6.149.989
+Total de votos nominais:   5.826.614 (94,74%)
+Total de votos de legenda: 323.375 (5,26%)
 

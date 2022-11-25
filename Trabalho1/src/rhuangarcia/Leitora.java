@@ -1,4 +1,5 @@
 package rhuangarcia;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -29,6 +30,14 @@ public class Leitora {
             InputStreamReader rsCand = new InputStreamReader(isCand, "ISO8859-1");
             BufferedReader arqCand = new BufferedReader(rsCand);
             String temp = arqCand.readLine();
+
+            // String[] partes = temp.split("\";\"");
+            // int i = 0;
+            // for (String s : partes) {
+            // System.out.println(i + " " + s);
+            // i++;
+            // }
+
             temp = arqCand.readLine();
 
             while (temp != null) {
@@ -56,25 +65,31 @@ public class Leitora {
 
                 // Se o candidato concorre para o cargo desejado e possui candidatura valida
                 if ((Integer.parseInt(partes[13]) == filtroCargo)
-                        & (Integer.parseInt(partes[24]) == 2 | Integer.parseInt(partes[24]) == 16)) {
+                        & (Integer.parseInt(partes[68]) == 2 | Integer.parseInt(partes[68]) == 16)) {
 
-                    // Cria candidato lido
-                    LocalDate nasc = LocalDate.parse(partes[42], DateTimeFormatter.ofPattern("d/MM/yyyy"));
-                    Candidato cand = new Candidato(Integer.parseInt(partes[16]), Integer.parseInt(partes[13]),
-                            partes[18],
-                            nasc,
-                            (Integer.parseInt(partes[56]) == 2 || Integer.parseInt(partes[56]) == 3),
-                            converteGenero(Integer.parseInt(partes[45])), 0);
+                    if (partes[67].equals("Válido (legenda)")) {
+                        partidos.put(Integer.parseInt(partes[16]), partidos.get(Integer.parseInt(partes[27])));
+                    } else {
+                        // Cria candidato lido
+                        LocalDate nasc = LocalDate.parse(partes[42], DateTimeFormatter.ofPattern("d/MM/yyyy"));
+                        Candidato cand = new Candidato(Integer.parseInt(partes[16]), Integer.parseInt(partes[13]),
+                                partes[18],
+                                nasc,
+                                (Integer.parseInt(partes[56]) == 2 || Integer.parseInt(partes[56]) == 3),
+                                converteGenero(Integer.parseInt(partes[45])), 0);
 
-                    cand.setPartidao(partidos.get(Integer.parseInt(partes[27])));
-                    // Add cand em candidatos
-                    candidatos.add(cand);
-                    votacao.put(cand.getID(), cand);
-                    // Add cand em eleitos
-                    if (cand.isEleito()) {
-                        eleitos.add(cand);
-                        cand.setEleito(true);
+                        cand.setPartidao(partidos.get(Integer.parseInt(partes[27])));
+                        // Add cand em candidatos
+                        candidatos.add(cand);
+                        votacao.put(cand.getID(), cand);
+                        // Add cand em eleitos
+                        if (cand.isEleito()) {
+                            eleitos.add(cand);
+                            cand.setEleito(true);
+                        }
                     }
+                } else if ((Integer.parseInt(partes[13]) == filtroCargo) & partes[67].equals("Válido (legenda)")) {
+                    partidos.put(Integer.parseInt(partes[16]), partidos.get(Integer.parseInt(partes[27])));
                 }
                 temp = arqCand.readLine();
             }
