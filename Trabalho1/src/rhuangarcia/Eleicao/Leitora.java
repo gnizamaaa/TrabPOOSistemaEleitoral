@@ -1,4 +1,4 @@
-package rhuangarcia;
+package rhuangarcia.Eleicao;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -67,7 +67,7 @@ public class Leitora {
                 if ((Integer.parseInt(partes[13]) == filtroCargo)
                         & (Integer.parseInt(partes[68]) == 2 | Integer.parseInt(partes[68]) == 16)) {
 
-                    if (partes[67].equals("Válido (legenda)")) {
+                    if (partes[67].equals("Válido (legenda)")) { // Se for um candidato com votos movidos para partido
                         partidos.put(Integer.parseInt(partes[16]), partidos.get(Integer.parseInt(partes[27])));
                     } else {
                         // Cria candidato lido
@@ -89,6 +89,7 @@ public class Leitora {
                         }
                     }
                 } else if ((Integer.parseInt(partes[13]) == filtroCargo) & partes[67].equals("Válido (legenda)")) {
+                    // Se for um candidato com votos movidos para partido
                     partidos.put(Integer.parseInt(partes[16]), partidos.get(Integer.parseInt(partes[27])));
                 }
                 temp = arqCand.readLine();

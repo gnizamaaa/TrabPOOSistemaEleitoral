@@ -9,12 +9,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-import rhuangarcia.Eleicao.Candidato;
-import rhuangarcia.Eleicao.Federacao;
-import rhuangarcia.Eleicao.Leitora;
-import rhuangarcia.Eleicao.Partido;
-import rhuangarcia.Eleicao.Relatorio;
-
 public class App {
     private static List<Candidato> difereLista(int tamMax, List<Candidato> e1, List<Candidato> e2) {
         ArrayList<Candidato> saida = new ArrayList<>(tamMax);
