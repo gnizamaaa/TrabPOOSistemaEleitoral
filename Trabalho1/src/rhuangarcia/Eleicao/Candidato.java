@@ -69,7 +69,11 @@ public class Candidato implements Comparable<Candidato> {
         return partidao;
     }
 
-    // Faz o set mantendo o link com o partido (que possui uma lista de candidatos)
+    /**
+     * Faz o set do partido do candidato mantendo o link com o partido 
+     * (que possui uma lista de candidatos)
+     * @param partidao
+     */
     public void setPartidao(Partido partidao) {
         this.partidao = partidao;
         partidao.InsereCand(this);

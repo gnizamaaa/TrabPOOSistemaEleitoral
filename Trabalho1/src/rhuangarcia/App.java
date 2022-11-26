@@ -16,6 +16,16 @@ import rhuangarcia.Eleicao.Partido;
 import rhuangarcia.Eleicao.Relatorio;
 
 public class App {
+    /**
+     * Retorna uma lista com a diferença entre a lista de candidatos e1 e e2
+     * Os elementos da lista retornada serão os presentes em e1 que não estão
+     * presentes em e2
+     * 
+     * @param tamMax
+     * @param e1
+     * @param e2
+     * @return
+     */
     private static List<Candidato> difereLista(int tamMax, List<Candidato> e1, List<Candidato> e2) {
         ArrayList<Candidato> saida = new ArrayList<>(tamMax);
 

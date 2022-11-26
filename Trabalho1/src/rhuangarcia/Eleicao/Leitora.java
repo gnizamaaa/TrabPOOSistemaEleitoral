@@ -11,7 +11,12 @@ import java.util.Map;
 
 public class Leitora {
 
-    // Conversao de inteiro (usado no arquivo) para char utilizado no programa
+    /**
+     * Conversao de inteiro (usado no arquivo) para char utilizado no programa
+     * 
+     * @param entrada
+     * @return
+     */
     private static char converteGenero(int entrada) {
         if (entrada == 2)
             return 'M';
@@ -20,6 +25,23 @@ public class Leitora {
         return 'I';
     }
 
+    /**
+     * Faz a leitura e armazenamento das informações contidas no arquivo de
+     * Candidatos
+     * Inserindo os candidatos validos na lista e mapa de candidatos, eleitos tambem
+     * na lista de eleitos
+     * Partidos na lista e mapa de partidos, federações no mapa de federações
+     * 
+     * @param eleitos      - Lista de candidatos eleitos
+     * @param candidatos   - Lista de candidatos validos para a votação
+     * @param votacao      - Mapa de candidatos validos para a votação
+     * @param listaPartido - Lista de Partidos
+     * @param partidos     - Mapa de partidos
+     * @param feds         - Mapa de federações
+     * @param arq          - Nome do arquivo de entrada
+     * @param filtroCargo  - Cargo sendo lido
+     * @throws IOException
+     */
     public static void leituraArqCand(List<Candidato> eleitos, List<Candidato> candidatos,
             Map<Integer, Candidato> votacao, List<Partido> listaPartido,
             Map<Integer, Partido> partidos, Map<Integer, Federacao> feds,
@@ -110,6 +132,18 @@ public class Leitora {
 
     }
 
+    /**
+     * Faz a leitura e armazenamento das informações contidas no arquivo de Votação
+     * Verificando se o voto é valido, se é pertencente a votação a ser processada e
+     * adicionando-o ao destino(candidato caso seja nominal e partido caso
+     * contrário)
+     * 
+     * @param arq
+     * @param votacao
+     * @param partidos
+     * @param filtroCargo
+     * @throws IOException
+     */
     public static void leituraArqVot(String arq,
             Map<Integer, Candidato> votacao,
             Map<Integer, Partido> partidos, int filtroCargo) throws IOException {
@@ -122,9 +156,6 @@ public class Leitora {
             while (temp != null) {
                 // Divide em campos, tirando aspas
                 String[] partes = temp.split("\";\"");
-                // if (Integer.parseInt(partes[19]) == 95 || Integer.parseInt(partes[19]) == 96
-                // || Integer.parseInt(partes[19]) == 97) {
-                // } else {
 
                 // Se e o cargo procurado, processe o voto
                 if (Integer.parseInt(partes[17]) == filtroCargo) {

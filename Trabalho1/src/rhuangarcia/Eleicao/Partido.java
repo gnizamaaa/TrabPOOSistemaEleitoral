@@ -1,4 +1,5 @@
 package rhuangarcia.Eleicao;
+
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -46,7 +47,11 @@ public class Partido implements Comparable<Partido> {
         return votosPartidarios;
     }
 
-    // Adiciona [votosPartidarios] votos ao contador de votos partidarios
+    /**
+     * Adiciona [votosPartidarios] votos ao contador de votos partidarios
+     * 
+     * @param votosPartidarios
+     */
     public void addVotosPartidarios(int votosPartidarios) {
         this.votosPartidarios += votosPartidarios;
     }
@@ -56,11 +61,21 @@ public class Partido implements Comparable<Partido> {
         fed.inserePartido(this);
     }
 
-    // Esta associado a uma federacao
+    /**
+     * Verifica se o partido está associado a uma federação
+     * 
+     * @return
+     */
     public Boolean isInFed() {
         return (fed != null);
     }
 
+    /**
+     * Insere o candidato na lista de candidatos do partido mantendo o link
+     * (Candidato possui uma referencia para o Partido que participa)
+     * 
+     * @param novo
+     */
     public void InsereCand(Candidato novo) {
         if (!candidatos.contains(novo)) {
             candidatos.add(novo);
@@ -129,8 +144,12 @@ public class Partido implements Comparable<Partido> {
         }
     }
 
-    // Imprime estatisticas do Partido sobre seus candidatos (mais eleito, menos
-    // eleito e votos deles)
+    /**
+     * Retorna uma String para impressão das estatisticas do Partido sobre seus
+     * candidatos (mais votado, menos votado e votos deles)
+     * 
+     * @return
+     */
     public String estatisticasCands() {
         Collections.sort(candidatos);
         Candidato primeiro = candidatos.get(0);
@@ -160,7 +179,11 @@ public class Partido implements Comparable<Partido> {
             return "";
     }
 
-    // Faz a impressao de uma lista de partidos com a posicao a esquerda
+    /**
+     * Faz a impressao de uma lista de partidos com a posicao a esquerda
+     * 
+     * @param listaPartido
+     */
     public static void imprimeListaPartido(List<Partido> listaPartido) {
         Integer i = 1;
         for (Partido e : listaPartido) {
