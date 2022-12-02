@@ -119,14 +119,14 @@ public class Leitora {
             arqCand.close();
         } catch (NumberFormatException e) {
             // parse deu erro (Formatacao incorreta)
-            System.out.println("O arquivo de candidatos fornecido ndao esta com a devida formatacao");
+            System.out.println("O arquivo de candidatos fornecido nao esta com a devida formatacao");
             System.exit(0);
 
         } catch (IOException e) {
             throw e;
         } catch (ArrayIndexOutOfBoundsException e) {
             // O split nao gerou tantos campos (Formatacao incorreta)
-            System.out.println("O arquivo de candidatos fornecido ndao esta com a devida formatacao");
+            System.out.println("O arquivo de candidatos fornecido nao esta com a devida formatacao");
             System.exit(0);
         }
 
